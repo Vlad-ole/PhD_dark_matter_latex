@@ -35,8 +35,8 @@
 20 кВ -> 0.62 кВ / см \\
 
 2) Пики от Am фитируются гауссом.\\
-$\nu$ и $\sigma$ - усредняются.\\
- 
+$\nu$  - усредняются, $\sigma$ - берется наибольшая.\\
+
 3) Калибровка.
 Заряд с осциллографа измерен в В*с $Q_{ADC}$.
 Нужно перевести его в количество электронов $n_{e}$. $A$ - константа калибровки.
@@ -48,82 +48,120 @@ $$
 Чтобы рассчитать $n_{e}(59.5 кэВ, \varepsilon)$ возьмем данные из статьи X-ray ionization yields and energy spectra in liquid argon.
 Поскольку нет данных для энергии 59.5 кэВ, то сначала посчитаем значения при разных энергиях и наших полях $n_{e}(35 кэВ, \varepsilon)$, $n_{e}(364 кэВ, \varepsilon)$, $n_{e}(976 кэВ, \varepsilon)$.
 Потом сделаем фит и узнаем значения $n_{e}$ при энергии 59.5 кэВ и наших полях (рис.~\ref{image:ne_Ni_vs_E0}).
+
 \begin{figure}[h]
-\center{\includegraphics[width=8cm]{ne_Ni_vs_E0}}
-\caption{}
-\label{image:ne_Ni_vs_E0}
+\includegraphics[width=0.47\textwidth]{ne_Ni_vs_E0}
+\hfill
+\includegraphics[width=0.47\textwidth]{summ_of_channels}
+\\
+\parbox[t]{0.47\textwidth}{\caption{}
+\label{image:ne_Ni_vs_E0}}
+\hfill
+\parbox[t]{0.47\textwidth}{\caption{}
+\label{image:summ_of_channels}}
 \end{figure}
 
 Зная $Q_{ADC}$ и $n_{e}$ вычисляем коэффициенты $A$ при различных полях.
 
 4) Спектр ядер отдачи \\
 Из спектра, полученного при заходе с нейтронами вычитаем спектр, полученный при выключенной трубке.
-Далее калибруем шкалу из $Q_{ADC}$ в $n_{e}$.
+Далее переводим шкалу из $Q_{ADC}$ в $n_{e}$.
 Исходные данные из-за небольшой статистики зашумлены.
 Сдваиваем каналы гистограммы, чтобы улучшить ситуацию с шумами (рис.~\ref{image:summ_of_channels} - пример для поля 0.62 кВ / см).
-\begin{figure}[h]
-\center{\includegraphics[width=8cm]{summ_of_channels}}
-\caption{}
-\label{image:summ_of_channels}
-\end{figure}
 
-Далее необходимо вычесть подложку от гамма фона (линейная функция).
-Выбор левого края - неоднозначен.
-Однако можно понять где находится правый край спектра нейтронов, если перевести число электронов $n_{e}$ в энергию ядра отдачи (keVnr) и сравнить этот спектр с теоретическим. 
-Для начала переведем $n_{e}$ в keVee, воспользовавшись соотношениями
-\begin{eqnarray}\label{eq:ne_to_keVee}
-\frac{n_{e}}{N_{i}} = \frac{a}{1 + b / E_{0}} \\ 
-N_{i} = E_{0} / W
-\end{eqnarray}
-откуда можно получить $E_{0}$, решив квадратное уравнение.
-
-Далее предположим, что фактор гашения не зависит от энергии и равен 0.3 и переведем keVee в keVnr:
-\begin{eqnarray}\label{eq:keVee_to_keVnr}
-keVnr = keVee / 0.3
-\end{eqnarray}
-
-Пример фитирования гамма подложки приведен на рис.~\ref{image:20kV_resoil_}.
-
-\begin{figure}[h]
-\center{\includegraphics[width=8cm]{20kV_resoil_}}
-\caption{}
-\label{image:20kV_resoil_}
-\end{figure}
 
 5) Свертка \\
 Тест программы на ступеньке (рис.~\ref{image:Convolution_test}).
+
 \begin{figure}[h]
-\center{\includegraphics[width=8cm]{Convolution_test}}
-\caption{}
-\label{image:Convolution_test}
+\includegraphics[width=0.47\textwidth]{Convolution_test}
+\hfill
+\includegraphics[width=0.47\textwidth]{Convolution_Vlad_vs_Jeny}
+\\
+\parbox[t]{0.47\textwidth}{\caption{}
+\label{image:Convolution_test}}
+\hfill
+\parbox[t]{0.47\textwidth}{\caption{}
+\label{image:Convolution_Vlad_vs_Jeny}}
 \end{figure}
 
-Рассмотрим теперь как выглядит свертка теоретического спектра с функцией гаусса (рис.~\ref{image:Convolution_Vlad_vs_Jeny}).
+Рассмотрим теперь как выглядит свертка теоретического спектра с функцией гаусса при $\sigma$ = 30\% (рис.~\ref{image:Convolution_Vlad_vs_Jeny}).
+Зеленая кривая (Евгений) и черная кривая (Владислав) практически совпадают, значит расчет верный.
+
+Далее сделаем светрку с энергетическим разрешением 22.89\%.
+Фитируем правый край спектра линейной функцией.
+Получаем $325 \pm 5$ keVnr.
+
+Теперь учтем тот факт, что энергетическое разрешение сигнала с ФЭУ зависит от энергии ядра отдачи (рис.~\ref{image:Energy_resolution_vs_E}).
+Данные о энергетическом разрешении при разных энергиях фотонов взяты из статьи Two phase cryogenic avalanche detector with electroluminescence gap operated in argon doped with nitrogen.
 \begin{figure}[h]
-\center{\includegraphics[width=8cm]{Convolution_Vlad_vs_Jeny}}
-\caption{}
-\label{image:Convolution_Vlad_vs_Jeny}
+\includegraphics[width=0.47\textwidth]{Energy_resolution_vs_E}
+\hfill
+\includegraphics[width=0.47\textwidth]{Convolution_diff_sigma}
+\\
+\parbox[t]{0.47\textwidth}{\caption{}
+\label{image:Energy_resolution_vs_E}}
+\hfill
+\parbox[t]{0.47\textwidth}{\caption{}
+\label{image:Convolution_diff_sigma}}
 \end{figure}
 
-Зеленая (Евгений) и черная кривая (Владислав) практически совпадают, значит расчет верный. 
-
-Теперь учтем тот факт, что энергетическое разрешение сигнала с ФЭУ зависит от энергии ядра отдачи.
-Данные взяты из статьи Two phase cryogenic avalanche detector with electroluminescence gap operated in argon doped with nitrogen.
 
 Сигма распределения считается следующим образом:
 \begin{eqnarray}\label{eq:sigma_calc}
 \sigma(E_{keVnr}) = \frac{\sigma}{E}(E_{keVnr} \cdot 0.3 ) \cdot E_{keVnr}
 \end{eqnarray}
 
-На рис.\ref{image:Convolution_diff_sigma} показаны спектры при свертке с гауссом, дисперсия которого зависит не только от энергии, но и от поля.  
+Пока проведем расчеты при $\sigma$ = 22.89\%.
+
+6) Находим кривую просчетов
+С генератора подаем прямоугольный импульс на осциллограф.
+Настраиваем zoom и интегрируем сигнал, т.е. повторяем условия обработки данных из эксперимента.
+
 \begin{figure}[h]
-\center{\includegraphics[width=8cm]{Convolution_diff_sigma}}
-\caption{}
-\label{image:Convolution_diff_sigma}
+\includegraphics[width=0.47\textwidth]{miscalculations}
+\hfill
+\includegraphics[width=0.47\textwidth]{miscalculations}
+\\
+\parbox[t]{0.47\textwidth}{\caption{}
+\label{image:Energy_resolution_vs_E}}
+\hfill
+\parbox[t]{0.47\textwidth}{\caption{}
+\label{image:Convolution_diff_sigma}}
 \end{figure}
 
-Как видно из графиков, спектр нейтронов заканчивается в районе 350 keVnr.
 
+7) Нахождение точек 80 кэВ и 233 кэВ
+Вычитаем гамма подложку.
+Для $\varepsilon$ = 0.62 кВ/см выберем 3 различные левые границы: 2005, 3005, 4000 $n_{e}$.
+Посчитаем точку пересечения с осью $n_{e}$.
+Оказывается, что выбор левой границы почти не влияет на нахождение точки перечечения.
+
+
+\begin{figure}[h]
+\center{\includegraphics[width=8cm]{Resoil_spectrum_results_20kV}}
+\caption{}
+\label{image:Resoil_spectrum_results_20kV}
+\end{figure}
+
+\begin{center}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3.5cm}|}
+  \hline
+    &  0.5 кВ / см  &  0.56 кВ / см & 0.62 кВ / см \\
+  \hline
+  $n_{e}$(80 кэВ) & - & $750 \pm 50$ &  $800 \pm 50$ \\
+  \hline
+  $n_{e}$(233 кэВ) & - & $1950 \pm (50_{fit} \pm 278_{calib})_{sys} \pm 60_{stat} = 1950 \pm $ & $2400 \pm (50_{fit} + 375_{calib})_{sys} \pm 50_{stat} = 2400 \pm $\\
+  \hline
+  $E$(233 кэВ) & $360 \pm 15$ & $332 \pm 7$ & $325 \pm 5$ \\
+  \hline
+  $E$(kink) & $360 \pm 15$ & $332 \pm 7$ & $325 \pm 5$ \\
+  \hline
+  $Q_{y}$ (80 кэВ) & - & - & 5.9 \\
+  \hline
+  $Q_{y}$ (233 кэВ) & - & $5.87 \pm 0.85$ & $7.38 \pm 1.04$ \\
+\end{tabular}
+\end{center}
 
 
 

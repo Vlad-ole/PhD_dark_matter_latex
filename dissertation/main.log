@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  13 APR 2016 14:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  26 APR 2016 16:13
 entering extended mode
-**D:/git_repositories/PhD_dark_matter_latex/neutrons/main.tex
-(D:/git_repositories/PhD_dark_matter_latex/neutrons/main.tex
+**D:/git_repositories/PhD_dark_matter_latex/dissertation/main.tex
+(D:/git_repositories/PhD_dark_matter_latex/dissertation/main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -468,15 +468,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks26
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\geometry\geometry.cfg))
-(D:\git_repositories\PhD_dark_matter_latex\neutrons\main.aux
-(D:\git_repositories\PhD_dark_matter_latex\neutrons\content.aux
-
-LaTeX Warning: Label `image:Energy_resolution_vs_E' multiply defined.
-
-
-LaTeX Warning: Label `image:Convolution_diff_sigma' multiply defined.
-
-))
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\main.aux
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\first_page.aux)
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\content_rus.aux)
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\bibliography.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
@@ -491,7 +486,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
- (D:\LaTex\Full_TeX\texmf\tex\context\base\supp-pdf.mkii
+
+(D:\LaTex\Full_TeX\texmf\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count150
 \scratchdimen=\dimen135
@@ -539,295 +535,94 @@ LaTeX Font Info:    ... okay on input line 41.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(D:\git_repositories\PhD_dark_matter_latex\neutrons\content.tex<<t2a.cmap>>
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
-
- []
-
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\first_page.tex<<t2a.cma
+p>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 38.
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+(Font)              <6> on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 38.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 37.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-
+Overfull \hbox (6.0089pt too wide) in paragraph at lines 33--38
+[]  $[]$ 
  []
 
 [1
 
 
 {D:/LaTex/Full_TeX/texmf/pdftex/config/pdftex.map}]
-Package epstopdf Info: Source file: <pictures/ne_Ni_vs_E0.eps>
-(epstopdf)                    date: 2016-04-03 16:49:50
-(epstopdf)                    size: 39586 bytes
-(epstopdf)             Output file: <pictures/ne_Ni_vs_E0-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2016-04-03 16:51:08
-(epstopdf)                    size: 19173 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/ne_Ni_vs_E0-eps-co
-nverted-to.pdf pictures/ne_Ni_vs_E0.eps>
-(epstopdf)             \includegraphics on input line 53.
-Package epstopdf Info: Output file is already uptodate.
-
-<pictures/ne_Ni_vs_E0-eps-converted-to.pdf, id=13, 816.04875pt x 634.37pt>
-File: pictures/ne_Ni_vs_E0-eps-converted-to.pdf Graphic file (type pdf)
-
-<use pictures/ne_Ni_vs_E0-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/ne_Ni_vs_E0-eps-converted-to.pdf used on inpu
-t line 53.
-(pdftex.def)             Requested size: 207.27887pt x 161.12819pt.
-Package epstopdf Info: Source file: <pictures/summ_of_channels.eps>
-(epstopdf)                    date: 2016-04-03 18:08:54
-(epstopdf)                    size: 55993 bytes
-(epstopdf)             Output file: <pictures/summ_of_channels-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2016-04-03 18:09:40
-(epstopdf)                    size: 28734 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/summ_of_channels-e
-ps-converted-to.pdf pictures/summ_of_channels.eps>
-(epstopdf)             \includegraphics on input line 55.
-Package epstopdf Info: Output file is already uptodate.
-
-<pictures/summ_of_channels-eps-converted-to.pdf, id=14, 816.04875pt x 605.26125
-pt>
-File: pictures/summ_of_channels-eps-converted-to.pdf Graphic file (type pdf)
- <use pictures/summ_of_channels-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/summ_of_channels-eps-converted-to.pdf used on
- input line 55.
-(pdftex.def)             Requested size: 207.27887pt x 153.73463pt.
-Package epstopdf Info: Source file: <pictures/Convolution_test.eps>
-(epstopdf)                    date: 2016-04-03 20:53:42
-(epstopdf)                    size: 92244 bytes
-(epstopdf)             Output file: <pictures/Convolution_test-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2016-04-03 20:53:48
-(epstopdf)                    size: 36211 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/Convolution_test-e
-ps-converted-to.pdf pictures/Convolution_test.eps>
-(epstopdf)             \includegraphics on input line 77.
-Package epstopdf Info: Output file is already uptodate.
-
-<pictures/Convolution_test-eps-converted-to.pdf, id=15, 816.04875pt x 608.2725p
-t>
-File: pictures/Convolution_test-eps-converted-to.pdf Graphic file (type pdf)
- <use pictures/Convolution_test-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/Convolution_test-eps-converted-to.pdf used on
- input line 77.
-(pdftex.def)             Requested size: 207.27887pt x 154.4995pt.
-Package epstopdf Info: Source file: <pictures/Convolution_Vlad_vs_Jeny.eps>
-(epstopdf)                    date: 2016-04-03 20:38:15
-(epstopdf)                    size: 161622 bytes
-(epstopdf)             Output file: <pictures/Convolution_Vlad_vs_Jeny-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2016-04-03 20:38:55
-(epstopdf)                    size: 53135 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/Convolution_Vlad_v
-s_Jeny-eps-converted-to.pdf pictures/Convolution_Vlad_vs_Jeny.eps>
-(epstopdf)             \includegraphics on input line 79.
-Package epstopdf Info: Output file is already uptodate.
-
-<pictures/Convolution_Vlad_vs_Jeny-eps-converted-to.pdf, id=16, 816.04875pt x 5
-91.20876pt>
-File: pictures/Convolution_Vlad_vs_Jeny-eps-converted-to.pdf Graphic file (type
- pdf)
- <use pictures/Convolution_Vlad_vs_Jeny-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/Convolution_Vlad_vs_Jeny-eps-converted-to.pdf
- used on input line 79.
-(pdftex.def)             Requested size: 207.27887pt x 150.16534pt.
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\main.toc)
+\tf@toc=\write3
+ [2])
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\content_rus.tex
+[3
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+] [4] <pictures/calibration_scheme.pdf, id=23, 772.41876pt x 228.79376pt>
+File: pictures/calibration_scheme.pdf Graphic file (type pdf)
 
-Package epstopdf Info: Source file: <pictures/Energy_resolution_vs_E.eps>
-(epstopdf)                    date: 2016-04-04 10:28:47
-(epstopdf)                    size: 86134 bytes
-(epstopdf)             Output file: <pictures/Energy_resolution_vs_E-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2016-04-04 10:31:16
-(epstopdf)                    size: 33689 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/Energy_resolution_
-vs_E-eps-converted-to.pdf pictures/Energy_resolution_vs_E.eps>
-(epstopdf)             \includegraphics on input line 98.
-Package epstopdf Info: Output file is already uptodate.
+<use pictures/calibration_scheme.pdf>
+Package pdftex.def Info: pictures/calibration_scheme.pdf used on input line 41.
 
-<pictures/Energy_resolution_vs_E-eps-converted-to.pdf, id=17, 811.03pt x 630.35
-5pt>
-File: pictures/Energy_resolution_vs_E-eps-converted-to.pdf Graphic file (type p
-df)
- <use pictures/Energy_resolution_vs_E-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/Energy_resolution_vs_E-eps-converted-to.pdf u
-sed on input line 98.
-(pdftex.def)             Requested size: 207.27887pt x 161.09909pt.
-Package epstopdf Info: Source file: <pictures/Convolution_diff_sigma.eps>
-(epstopdf)                    date: 2016-04-03 20:42:59
-(epstopdf)                    size: 174745 bytes
-(epstopdf)             Output file: <pictures/Convolution_diff_sigma-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2016-04-03 20:45:45
-(epstopdf)                    size: 56028 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/Convolution_diff_s
-igma-eps-converted-to.pdf pictures/Convolution_diff_sigma.eps>
-(epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
-
-<pictures/Convolution_diff_sigma-eps-converted-to.pdf, id=18, 816.04875pt x 591
-.20876pt>
-File: pictures/Convolution_diff_sigma-eps-converted-to.pdf Graphic file (type p
-df)
- <use pictures/Convolution_diff_sigma-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/Convolution_diff_sigma-eps-converted-to.pdf u
-sed on input line 100.
-(pdftex.def)             Requested size: 207.27887pt x 150.16534pt.
- [2 <D:/git_repositories/PhD_dark_matter_latex/neutrons/pictures/ne_Ni_vs_E0-ep
-s-converted-to.pdf> <D:/git_repositories/PhD_dark_matter_latex/neutrons/picture
-s/summ_of_channels-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <pictures/miscalculations.eps>
-(epstopdf)                    date: 2016-04-12 12:26:04
-(epstopdf)                    size: 126942 bytes
-(epstopdf)             Output file: <pictures/miscalculations-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2016-04-12 12:26:48
-(epstopdf)                    size: 49381 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/miscalculations-ep
-s-converted-to.pdf pictures/miscalculations.eps>
-(epstopdf)             \includegraphics on input line 122.
-Package epstopdf Info: Output file is already uptodate.
-
-<pictures/miscalculations-eps-converted-to.pdf, id=97, 817.0525pt x 574.145pt>
-File: pictures/miscalculations-eps-converted-to.pdf Graphic file (type pdf)
-
-<use pictures/miscalculations-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/miscalculations-eps-converted-to.pdf used on 
-input line 122.
-(pdftex.def)             Requested size: 207.27887pt x 145.65599pt.
-Package epstopdf Info: Source file: <pictures/miscalculations.eps>
-(epstopdf)                    date: 2016-04-12 12:26:04
-(epstopdf)                    size: 126942 bytes
-(epstopdf)             Output file: <pictures/miscalculations-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2016-04-12 12:26:48
-(epstopdf)                    size: 49381 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/miscalculations-ep
-s-converted-to.pdf pictures/miscalculations.eps>
-(epstopdf)             \includegraphics on input line 124.
-Package epstopdf Info: Output file is already uptodate.
-File: pictures/miscalculations-eps-converted-to.pdf Graphic file (type pdf)
-
-<use pictures/miscalculations-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/miscalculations-eps-converted-to.pdf used on 
-input line 124.
-(pdftex.def)             Requested size: 207.27887pt x 145.65599pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package epstopdf Info: Source file: <pictures/Resoil_spectrum_results_20kV.eps>
-
-(epstopdf)                    date: 2016-04-04 11:40:04
-(epstopdf)                    size: 124006 bytes
-(epstopdf)             Output file: <pictures/Resoil_spectrum_results_20kV-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 11:41:27
-(epstopdf)                    size: 52028 bytes
-(epstopdf)             Command: <epstopdf --outfile=pictures/Resoil_spectrum_re
-sults_20kV-eps-converted-to.pdf pictures/Resoil_spectrum_results_20kV.eps>
-(epstopdf)             \includegraphics on input line 142.
-Package epstopdf Info: Output file is already uptodate.
-
-<pictures/Resoil_spectrum_results_20kV-eps-converted-to.pdf, id=98, 817.0525pt 
-x 675.52374pt>
-File: pictures/Resoil_spectrum_results_20kV-eps-converted-to.pdf Graphic file (
-type pdf)
-
-<use pictures/Resoil_spectrum_results_20kV-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/Resoil_spectrum_results_20kV-eps-converted-to
-.pdf used on input line 142.
-(pdftex.def)             Requested size: 227.62204pt x 188.18674pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-\OT1/cmr/m/n/12 278[])[] \OMS/cmsy/m/n/12 
+(pdftex.def)             Requested size: 352.81552pt x 104.50629pt.
+ [5 <D:/git_repositories/PhD_dark_matter_latex/dissertation/pictures/calibratio
+n_scheme.pdf>]
+Overfull \hbox (3.39842pt too wide) in paragraph at lines 73--75
+[]$[]$
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-[]$\OT1/cmr/m/n/12 2400 \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 (50[] +
+)
+Overfull \hbox (3.39842pt too wide) in paragraph at lines 76--44
+[]$[]$ 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-\OT1/cmr/m/n/12 375[])[] \OMS/cmsy/m/n/12 
+[6] (D:\git_repositories\PhD_dark_matter_latex\dissertation\bibliography.tex
+Underfull \hbox (badness 5504) in paragraph at lines 7--8
+[]\T2A/cmr/m/n/12 Buzulutskov A. Advances in Cryogenic Avalanche Detectors // J
+. of
  []
 
-[3 <D:/git_repositories/PhD_dark_matter_latex/neutrons/pictures/Convolution_tes
-t-eps-converted-to.pdf> <D:/git_repositories/PhD_dark_matter_latex/neutrons/pic
-tures/Convolution_Vlad_vs_Jeny-eps-converted-to.pdf> <D:/git_repositories/PhD_d
-ark_matter_latex/neutrons/pictures/Energy_resolution_vs_E-eps-converted-to.pdf>
- <D:/git_repositories/PhD_dark_matter_latex/neutrons/pictures/Convolution_diff_
-sigma-eps-converted-to.pdf>]) [4 <D:/git_repositories/PhD_dark_matter_latex/neu
-trons/pictures/miscalculations-eps-converted-to.pdf> <D:/git_repositories/PhD_d
-ark_matter_latex/neutrons/pictures/Resoil_spectrum_results_20kV-eps-converted-t
-o.pdf>] (D:\git_repositories\PhD_dark_matter_latex\neutrons\main.aux
-(D:\git_repositories\PhD_dark_matter_latex\neutrons\content.aux))
+[7
 
-LaTeX Warning: There were multiply-defined labels.
 
- ) 
+]) [8] (D:\git_repositories\PhD_dark_matter_latex\dissertation\main.aux
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\first_page.aux)
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\content_rus.aux)
+(D:\git_repositories\PhD_dark_matter_latex\dissertation\bibliography.aux)) ) 
 Here is how much of TeX's memory you used:
- 4977 strings out of 493921
- 66607 string characters out of 3150556
- 137956 words of memory out of 3000000
- 8061 multiletter control sequences out of 15000+200000
- 15272 words of font info for 43 fonts, out of 3000000 for 9000
+ 5023 strings out of 493921
+ 71824 string characters out of 3150556
+ 136883 words of memory out of 3000000
+ 8112 multiletter control sequences out of 15000+200000
+ 14467 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,10n,28p,375b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/LaTex/Full_TeX/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<D:/LaTex/
-Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/LaTex/Full_TeX/tex
-mf/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/LaTex/Full_TeX/texmf/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-super/sfbx144
-0.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-super/sfbx1728.pfb><D:/LaT
-ex/Full_TeX/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><D:/LaTex/Full_TeX/t
-exmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (4 pages, 436760 bytes).
+ 42i,9n,28p,1774b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:
+/LaTex/Full_TeX/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<D:/LaTex/Full_
+TeX/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/LaTex/Full_TeX/texmf/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/LaTex/Fu
+ll_TeX/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/LaTex/Full_TeX/texmf/
+fonts/type1/public/cm-super/sfbx1200.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/p
+ublic/cm-super/sfbx1728.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-supe
+r/sfrm1200.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-super/sfrm1728.pf
+b>
+Output written on main.pdf (8 pages, 262988 bytes).
 PDF statistics:
- 485 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
