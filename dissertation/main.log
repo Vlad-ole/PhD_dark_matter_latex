@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  26 APR 2016 16:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  16 JUN 2017 18:49
 entering extended mode
 **D:/git_repositories/PhD_dark_matter_latex/dissertation/main.tex
 (D:/git_repositories/PhD_dark_matter_latex/dissertation/main.tex
@@ -538,23 +538,23 @@ LaTeX Font Info:    ... okay on input line 41.
 (D:\git_repositories\PhD_dark_matter_latex\dissertation\first_page.tex<<t2a.cma
 p>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 37.
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+(Font)              <6> on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 37.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 36.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (6.0089pt too wide) in paragraph at lines 33--38
+Overfull \hbox (6.0089pt too wide) in paragraph at lines 32--37
 []  $[]$ 
  []
 
@@ -582,12 +582,12 @@ Overfull \hbox (3.39842pt too wide) in paragraph at lines 73--75
 []$[]$
  []
 
-)
-Overfull \hbox (3.39842pt too wide) in paragraph at lines 76--44
+
+Overfull \hbox (3.39842pt too wide) in paragraph at lines 76--77
 []$[]$ 
  []
 
-[6] (D:\git_repositories\PhD_dark_matter_latex\dissertation\bibliography.tex
+) [6] (D:\git_repositories\PhD_dark_matter_latex\dissertation\bibliography.tex
 Underfull \hbox (badness 5504) in paragraph at lines 7--8
 []\T2A/cmr/m/n/12 Buzulutskov A. Advances in Cryogenic Avalanche Detectors // J
 . of
@@ -620,7 +620,7 @@ fonts/type1/public/cm-super/sfbx1200.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/p
 ublic/cm-super/sfbx1728.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-supe
 r/sfrm1200.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-super/sfrm1728.pf
 b>
-Output written on main.pdf (8 pages, 262988 bytes).
+Output written on main.pdf (8 pages, 280464 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,0 +1,74 @@
+\documentclass[12pt,a4paper, onecolumn]{article}
+%\documentclass[a4paper,14pt,oneside,openany]{memoir}
+
+\usepackage{russ}
+\usepackage{cmap}
+\usepackage{cite}
+
+\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+
+%\usepackage[utf8]{inputenc}
+
+\usepackage[english,german,russian]{babel}
+\usepackage{calc}
+
+%graphicx
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\graphicspath{{pictures/}}
+
+\usepackage{latexsym,amsfonts,amssymb,amsmath,eucal}
+\usepackage{exscale}
+\usepackage{xspace}
+\usepackage{indentfirst}
+\usepackage{verbatim}
+\usepackage{layout}
+\usepackage{miller}
+\usepackage[numbers,square,comma,sort&compress]{natbib}
+\usepackage{url}
+
+%tables
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{hhline}% http://ctan.org/pkg/hhline
+
+%hyperref
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks, linkcolor={black!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\usepackage{rotating}
+\usepackage{lscape}
+
+\usepackage{amssymb}
+
+%geometry
+\usepackage[a4paper, mag=1000, includehead,left=3cm, right=2.5cm, top=2cm, bottom=2cm, headsep=0.75cm, footskip=1cm, marginparwidth=1.75cm, showframe=false]{geometry}
+\pagenumbering{arabic}
+\renewcommand{\baselinestretch}{1.25}
+\long\def\comment{}
+
+%перенос слов
+%\usepackage{hyphenat}
+%\hyphenation{Inst-ru-men-tat-ion.}
+
+
+
+\begin{document}
+
+\include{first_page_var2}
+\include{abstract}
+\include{content_rus_winter}
+\include{double_scattering}
+%\include{content_eng}
+\include{conclusions}
+\include{bibliography}
+\include{appendix1}
+\include{appendix2}
+\end{document}

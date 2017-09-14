@@ -1,0 +1,592 @@
+\documentclass[a4paper,11pt]{article}
+%\pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
+% images in pdf, png or jpg format)
+
+\usepackage{jinstpub} % for details on the use of the package, please
+% see the JINST-author-manual
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{hyperref}
+\graphicspath{{figures/}}
+
+%\usepackage{amssymb,amsmath}
+%\usepackage{delarray}
+%\usepackage{caption}
+%\captionsetup[table]{labelfont=bf, labelsep=none, justification=raggedright}
+
+\title{\boldmath Study of proportional electroluminescence in two-phase argon}
+
+
+%% %simple case: 2 authors, same institution
+%% \author{A. Uthor}
+%% \author{and A. Nother Author}
+%% \affiliation{Institution,\\Address, Country}
+
+% more complex case: 4 authors, 3 institutions, 2 footnotes
+%\author[a,b,1]{F. Irst,\note{Corresponding author.}}
+%\author[c]{S. Econd,}
+%\author[a,2]{T. Hird\note{Also at Some University.}}
+%\author[c,2]{and Fourth}
+\author[a,b]{A.~Bondar,}
+\author[a,b]{A.~Buzulutskov,}
+\author[b]{A.~Dolgov,}
+\author[a,b]{V.~Nosov,}
+\author[a,b]{V.~Oleinikov,}
+\author[a,b]{L.~Shekhtman,}
+\author[a,b,1]{E.~Shemyakina\note{Corresponding author.}}
+\author[a,b]{and A.~Sokolov}
+
+
+% The "\note" macro will give a warning: "Ignoring empty anchor..."
+% you can safely ignore it.
+
+\affiliation[a]{Budker Institute of Nuclear Physics, \\Lavrentiev ave. 11, Novosibirsk 630090, Russia}
+\affiliation[b]{Novosibirsk State University,\\ Pirogova st. 2, Novosibirsk 630090, Russia}
+
+% e-mail addresses: only for the forresponding author
+\emailAdd{...}
+
+\abstract{...The mystery of proportional electroluminescence in two-phase argon }
+
+\keywords{Charge transport, multiplication and electroluminescence in rare gases and liquids; Noble liquid detectors (scintillation, ionization, double-phase)}
+
+
+\begin{document}
+\maketitle
+\flushbottom
+
+\section{Introduction}
+\hspace*{\parindent}
+
+...In this work we systematically study proportional electroluminescence in Ar in the two-phase mode, with a minor (56 ppm) admixture of N$_2$ that might be typical for large-scale liquid Ar experiments \cite{LargeLArRef}. The EL threshold and the electric field dependence of the absolute EL yield are measured. We show that the N$_2$ SPS emission provides a major part of the EL signal in these conditions.
+
+The present study was performed in the course of the development of two-phase Cryogenic Avalanche Detectors (CRADs) of ultimate sensitivity for rare-event experiments \cite{RevCRAD} and their energy calibration \cite{LArIonYieldCRAD}. An advanced two-phase CRAD prototype was used in the measurements, with EL gap optically read out using cryogenic PMTs, and with combined THGEM/GAPD-matrix  multiplier  \cite{NirCRAD,RevCRAD,CRADMatrix} (THGEM is Thick Gas Electron Multiplier \cite{THGEMRev}; GAPD is Geiger-mode APD). 
+
+...The present study was performed in the course of the development of two-phase Cryogenic Avalanche Detectors (CRADs) \cite{CRADPropEL,RevCRAD}, operated in Ar, for dark matter search \cite{Warp,Darkside} and coherent neutrino-nucleus scattering \cite{CoNu1,CoNu2} experiments and their energy calibration \cite{LArIonYieldBern1,LArIonYieldScene,LArIonYieldCRAD,XRayYield}.
+
+In two-phase detectors operated in Ar, the S2 signal (induced by the primary ionization in the noble-gas liquid), is detected through the effect of proportional electroluminescence (or proportional scintillation) in electroluminescence (EL) gap located directly above the liquid-gas interface \cite{Rev1}. In proportional electroluminescence the energy provided to the electrons by the electric field is almost fully expended in atomic excitations producing $Ar^{\ast}(3p^54s^1)$ and $Ar^{\ast}(3p^54p^1)$ states. These are followed by the photon emission in the Vacuum Ultraviolet (VUV), around 128 nm, due to excimer ($Ar^{\ast}_2$) productions in three-body collisions and their subsequent decays \cite{PropELMech,PropELGAr,PropELSim}, and by the photon emission in the Near Infrared (NIR), at 690-850 nm, due to $Ar^{\ast}(3p^54p^1)\rightarrow Ar^{\ast}(3p^54s^1)+h\nu$ atomic transitions \cite{NirCRAD,NirYieldSim}.
+
+In presence of nitrogen admixture to gaseous argon the mechanism of proportional electroluminescence is modified. Namely, the excimer production (and hence the VUV emission) can be taken over by that of excited N$_2$ molecules in two-body collisions followed by their de-excitations in the Near Ultraviolet (NUV) \cite{PropELArN2}, through the emission of the so-called Second Positive System (SPS), at 260-430 nm \cite{ArN2SPS}.
+
+It should be remarked that VUV recording is rather inefficient in two-phase detectors in Ar as compared to that of NUV, due to re-emission and total reflection losses in the Wavelength Shifter (WLS): the losses in light collection efficiency may exceed an order of magnitude \cite{CRADPropEL}. Accordingly, it looks attractive to dope argon with a small amount of nitrogen, to convert the VUV into the NUV directly in the EL gap. This idea has been recently realized by our group in \cite{CRADPropEL}. A high performance two-phase CRAD has been developed there, with EL gap optically read out using cryogenic PMTs located on the perimeter of the gap, and with combined THGEM/GAPD-matrix  multiplier  \cite{RevCRAD,NirCRAD,CRADMatrix} (THGEM is Thick Gas Electron Multiplier \cite{THGEMRev}; GAPD is Geiger-mode APD or MPPC or else SiPM \cite{CryoGAPD}). Such a combined charge/optical readout of two-phase detectors would result in a higher overall gain at superior spatial resolution.
+
+In that work \cite{CRADPropEL} we systematically studied proportional electroluminescence in Ar in the two-phase mode, with a minor ($\sim$50 ppm) admixture of N$_2$,  that might be typical for large-scale liquid Ar experiments \cite{LArN2Impure,LargeLArRef}. The results obtained there indicate that the effect of N$_2$ doping on proportional electroluminescence in Ar is enhanced at lower temperatures. In addition, the S2 signal response was found to be substantially (by a factor of 3) enhanced due to the fraction of the N$_2$ emission spectrum recorded directly, i.e. escaping re-emission in the WLS film and thus having a considerably higher light collection efficiency.
+
+In this work we present some topics on the performance of the two-phase CRAD with EL gap in N$_2$-doped Ar, not covered in the previous work, namely the results of the measurements of the N$_2$ content, amplitude characteristics for X-ray-induced signals, EL gap yield and electron lifetime in the liquid.
+
+...On the other hand, the recent results on electroluminescence yield in two-phase Ar doped with a rather small amount of N$_2$, at a content of 50 ppm, were explained by a hypothesis that 50\% of emitted photons were due to N$_2$ emission \cite{Bondar15,Bondar17}. This hypothesis implies that the excitation transfer from Ar to N$_2$ species is substantially enhanced at 87 K compared to room temperature. Given such a low N$_2$ content, one could be tempted to use a ternary mixture of argon doped with xenon and nitrogen, in which the N$_2$ dopant in the liquid is supposed to do not interfere with that of Xe.
+
+In this paper, we try to resolve these questions through careful analysis of energy levels, photon emission bands and reaction rate constants of Ar, Xe and N$_2$ species relevant to the performance in the two-phase mode.
+
+The present study was performed in the course of the development of two-phase Cryogenic Avalanche Detectors (CRADs) of ultimate sensitivity for rare-event experiments \cite{Buzulutskov12,Bondar14,Bondar16,CryoGAPD}.
+
+
+
+\section{Experimental setup}
+The experimental setup was similar to that used in our previous
+studies of two-phase CRADs in Ar \cite{PropEluctroLumInAr}. \textbf{In the two-phase CRAD,
+the primary ionization (electron) charge produced in the liquid by a
+particle, drifts towards a liquid-gas interface under an electric
+field, where it is emitted into the gas phase and drift in a moderate electric field in an electroluminescence (EL) gap located directly above the liquid-gas interface.}
+The experimental setup included a
+vacuum-insulated cryostat with a \textbf{9-l volume} cryogenic chamber. The
+chamber consisted of a cathode mesh, immersed in a 0.8 cm thick
+liquid Ar layer, and a double-THGEM assembly with an active area of
+10$\times$10 cm$^2$, placed in the gas phase above the liquid. The
+detector was operated in a two-phase mode in the equilibrium state,
+at a saturated vapour pressure of 1.0 atm and at a temperature of 87
+K. The Ar was purified by an Oxisorb filter,
+providing an electron life-time \textbf{of $\ge$100 $\mu$s} in the liquid \cite{Two-phaseCRAD}.
+
+The primary ionization charge in liquid Ar was produced by either
+X-rays from a $^{241}$Am source having among others a 59.5 keV line,
+or DD neutron generator. The detector was irradiated from outside,
+practically uniformly across the active area, through two Al windows
+located at the \textbf{chamber's bottom -> chamber bottom}.
+
+To produce neutrons a specially designed  neutron generator was used
+that continuously emitted monoenergetic neutrons (not collimated)
+with the kinetic energy of 2.45 MeV obtained in the DD fusion
+reaction \cite{NScatProp, NGen}. The neutron flux was of the order
+\textbf{of 10$^4$ s$^{-1}$ over full} solid angle.  The neutron generator
+(operated at 80 kV and wrapped in a 1 cm thick Pb screen to suppress
+bremsstrahlung gamma-rays) was placed underneath the two-phase CRAD
+at a distance of about 10 cm from the active volume.
+
+The EL gap was viewed by four compact cryogenic 2-inch PMTs R6041-506MOD, located on the perimeter of the gap.
+The signals were digitized and processed online with a
+LeCroy~HRO~66Z digital oscilloscope.
+
+The trigger was provided by the signals from the two-phase CRAD
+itself at a detection threshold equivalent \textbf{to the energy of 8 keVee},
+well above the electronic noises. At this threshold the typical
+detector rate under neutron irradiation was of the \textbf{order of 80
+s$^{-1}$}, and DAQ \textbf{had 25\% miscounts}. Each
+experimental session was composed of several measurement runs: that
+with neutron generator on, that with neutron generator off (to
+measure the cosmic and detector internal backgrounds) and those of
+the charge-scale and energy-resolution calibration using a 59.9
+X-ray line from $^{241}$Am source.
+
+
+\section{Experimental results}
+
+Fig.~\ref{SpectrRaw} shows the raw \textbf{integral} spectra in the
+measurement runs at an electric field of 0.56 kV/cm: two pulse-integral
+distributions, obtained in the runs when the neutron generator was
+on and off, are presented. To obtain the real neutron
+scattering-induced spectrum, the latter should be subtracted from
+the former. To calibrate the integral scale in terms of the primary
+ionization charge, the detector was also irradiated with X-rays from
+$^{241}$Am source in the calibration runs: see the inset in the
+figure. In addition in these calibration runs the \textbf{energy}
+resolution of the detector was measured using the 59.5
+keV line: it amounted to $\sigma$/E=29\% and  $\sigma$/E=23\% at an electric field of 0.56 and 0.62 kV/cm respectively. The resolution
+is expected to be reasonably spatially uniform and
+practically independent of the energy, being mostly defined by the
+gain non-uniformity \textbf{in the EL gap} and the fluctuations of the
+slow component of an electron emission though the liquid-gas
+interface \cite{TPAr-Emission}.
+
+
+\begin{figure}[ht]
+	\includegraphics[width=0.5\textwidth]{fig1_Spectrum_Signal+Backgr_16feb_2016}
+	\hfill
+	\includegraphics[width=0.5\textwidth]{fig4_Spectrum_Signal-Backgr}
+	\\
+	\parbox[t]{0.47\textwidth}{\caption{Pulse-integral distributions of the two-phase CRAD signals in
+the measurement runs when the neutron generator was on (DD neutron
+generator run) and off (Background run). The \textbf{run-time} exposure was 10 min.
+ In the inset, the pulse-integral distribution induced by X-rays
+from $^{241}$Am source, in one of the calibration runs, is shown.}
+		\label{SpectrRaw}}
+	\hfill
+	\parbox[t]{0.47\textwidth}{\caption{Ionization charge distribution in liquid Ar induced by
+nuclear recoils due to neutron scattering, obtained from Fig.~\ref{SpectrRaw} using 59.5 keV X-ray
+line calibration and subtracting background-run and gamma-ray
+contributions. In the inset, the energy distribution is shown after
+subtracting the background-run contribution, but before subtracting
+the gamma-ray contribution, the latter being fitted by a linear
+decreasing function. Here the energy scale calibration was performed
+using the 59.5 keV X-ray line.}
+		\label{SpectrNeutron}}
+\end{figure}
+
+In Eq.~\eqref{eq.1} one should first determine $n_e$ from the spectra of
+Fig.~\ref{SpectrRaw}. For this the pulse-integral in the
+figure should be normalized to that of 59.5 keV peak and then
+converted to the primary ionization charge. For the latter one
+should know, in turn, the ionization yield for 59.5 keV X-rays in
+liquid Ar. Since the experimental data on this quantity were not
+available in the literature, we conducted a special intermediate
+study on the ionization yields for electron-equivalent recoils,
+namely for X-rays and electrons absorbed in liquid Ar and Xe.
+
+In liquid Xe, where
+there are enough experimental data in the energy range of interest,
+the relative ionization yield dependence on energy is perfectly
+described by a function $n_e/N_i=1/(1+a/E_0)$ with a single
+parameter $a$. Accordingly, in liquid Ar we used the similar
+function, firstly, to describe the experimental data and, secondly,
+to extrapolate the data to the energy point of interest. In liquid
+Ar however there was a lack of data in the low energy domain. In
+this domain the data point at 35 keV was obtained ourselves in a
+dedicated experiment using a small liquid Ar TPC and pulsed X-ray
+tube, previously used in the study of NIR scintillations in liquid
+Ar (see \cite{NIRStudy1} and Fig.~7 in ref.
+\cite{NIRStudy2-CRADProject}); here the X-ray energy was accurately
+calculated using a dedicated computer program for the
+given X-ray tube and TPC geometry.
+
+
+Finally, to calculate $n_e$ (as well as $Q_y$) from $n_e/N_i$, we
+used a $W$-value (energy needed to produce one ion pair) and its
+definition, $W=E_0/N_i$: $W=23.6$ eV in liquid Ar (see table 2 in
+ref. \cite{NobleRev}).
+
+After subtracting the background-run contribution, the \textbf{integral}
+distribution still contains the gamma-ray background, resulted from
+($n,\gamma$) reactions in surrounding materials (H, C, Ar, Fe, Pb, etc.). The gamma energies above 0.6 MeV.
+
+At these photon energies the spectrum of electron recoils
+due to Compton scattering at the given recoil energies can be
+approximated by a linear decreasing function with energy (see Fig.
+10.1 in ref. \cite{Knoll}). Accordingly in liquid Ar the gamma-ray
+contribution due to Compton scattering appeared in the energy
+spectrum as a long tail extending to higher energies, fitted by a
+linear decreasing function: see the inset in
+Fig.~\ref{SpectrNeutron}.
+
+Fig.~\ref{SpectrNeutron} shows the desired ionization charge
+spectrum in liquid Ar induced by nuclear recoils due to neutron
+scattering; the spectrum is obtained from Fig.~\ref{SpectrRaw} using
+59.5 keV X-ray line calibration and subtracting the background-run
+and gamma-ray contributions. The next step is to compare this
+experimental spectrum to that of theoretical.
+
+The theoretical  spectrum was computed using simulation code {\it
+Scattronix} developed in the Budker INP~\cite{NSpectr} and
+differential cross-sections of elastic and inelastic neutron
+scattering \cite{NData}. For the $^{40}$Ar nuclei irradiated by
+neutrons with the energy of 2.45 MeV it is shown in
+Fig.~\ref{SpectrTheory}. One can see that the maximum recoil energy
+for the Ar nuclei, achieved for backward neutron scattering at
+180$^o$, is 233 keV. The convolution of the theoretical spectrum
+with the energy resolution of the two-phase CRAD obtained in
+experiment (29\,\%), is also shown; just this spectrum should be
+compared to that of experimental. Two components of neutron
+scattering are distinctly seen in the figure: those of the forward
+and backward scattering, respectively represented in the
+distribution by the peak at lower energies and the shoulder at
+higher energies. These two components are well reproduced in the
+experimental spectrum in Fig.~\ref{SpectrNeutron}. It is interesting
+that the backward scattering component (the shoulder) in both the
+experimental and theoretical spectra is well approximated by a
+linear function: see Fig.~\ref{SpectrNeutron} and the inset in
+Fig.~\ref{SpectrTheory}.
+
+One cannot directly fit the theoretical spectrum to that of
+experimental in order to obtain the ionization yield, due to the
+unknown energy dependence of the yield. On the other hand, one can
+select the characteristic points at certain nuclear recoil energies
+in both the experimental and theoretical spectra and calculate the
+ionization yield at these points according to Eq.~\ref{eq.1}. Namely
+at these points, one should divide the ionization charge value (in
+the experimental spectrum) by that of the nuclear recoil energy (in
+the theoretical spectrum). Fortunately, the mathematically justified
+choice of such point can be done with respect to the linear
+function fit of the backward scattering component (see the inset in
+Fig.~\ref{SpectrTheory}).\textbf{ This point, characterizing the
+spectrum end-point, is that of the horizontal axis intersection of
+the linear function. The nuclear recoil energy which should be attributed to this point is 233 keV.}
+The ionization yield values at two electric fields
+measured in that way are as follows: $Q_y=5.9\pm0.8\,e^-$/keV at 0.56
+kV/cm and $Q_y=7.4\pm1\,e^-$/keV at 0.62 kV/cm. These are presented in
+table~\ref{tab.1}, showing also the appropriate statistic and systematic
+uncertainties and their quadratic sum (total error).
+
+\begin{table}
+\caption{Ionization yields ($Q_y$) of nuclear recoils in liquid Ar
+with uncertainties measured at 233 keV.}
+\label{tab.1}
+\begin{center}
+\begin{tabular}{|lcccc|}
+\hline
+Electric field & $Q_y$ & Statistical & Systematic & Total\\
+(kV/cm)& ($e^-$/keV) & & & error \\ [2mm]\hline
+0.56  & 5.9 &  &  & 0.8\\
+0.62  & 7.4 &  &  & 1 \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+In addition to the ionization yield, the ionization efficiency,
+sometimes called the ionization quench factor, can be determined.
+The ionization efficiency is defined by analogy with the
+scintillation efficiency, i.e. as the ratio of the ionization yield
+of nuclear recoils ($Q_{y,nr}$) to that of electron-equivalent
+recoils ($Q_{y,ee}$), at the same energy:
+$L_{ion}=Q_{y,nr}/Q_{y,ee}$. Combining the data of table~\ref{tab.1} and the data of
+ionization yield of electron recoils from refs.~\cite{Scallettar82,Shibamura75,IonYield_80_233_keV}, one can obtain that $L_{ion}$ amounts to
+\textbf{0.31$\pm$0 at 0.56 kV/cm and 0.37$\pm$0 at 0.62 kV/cm}.
+
+
+\subsection{Comparison with other experiments and with theoretical models}
+
+n Fig.~\ref{IonYieldVsE} our data on the ionization yield are
+compared to those of ref. \cite{Joshi} measured at 6.7 keV. The data
+point of the latter was obtained at a close field value, at 2.13
+kV/cm; it was extrapolated to that of 2.3 kV/cm, using the measured
+field dependence of ref. \cite{Joshi}. One can see that the
+experimental data look compatible in terms of the absolute value of
+the ionization yield. In addition, the ionization yield looks to be
+an increasing function with energy.
+
+On the other hand, the ionization yield measured at lower energies,
+below 57 keV, in another work in the field \cite{Cao}, was reported
+to be a decreasing function with energy, in contrast to our results.
+The explanation of such a discrepancy might be a non-monotonic
+energy dependence of the ionization yield, predicted in some
+computer simulation models \cite{NEST}.
+
+
+\begin{figure}[ht]
+	\includegraphics[width=0.5\textwidth]{fig5_TheorSpectra}
+	\hfill
+	\includegraphics[width=0.5\textwidth]{fig6_IonYield}
+	\\
+	\parbox[t]{0.47\textwidth}{\caption{Nuclear recoil energy distribution induced by scattering of
+neutrons with the energy of 2.45 MeV off $^{40}$Ar nuclei, computed
+theoretically (red line). The convolution of the theoretical
+spectrum with the energy resolution of the two-phase CRAD obtained
+in experiment (30\,\%), is also shown (black line). In the inset,
+two characteristic points of the spectrum with respect to the linear
+function fit of the backward scattering component are indicated:
+that of the axis intersection at the spectrum end-point and that of
+the spectrum kink at the transition between the forward and backward
+scattering components.}
+		\label{SpectrTheory}}
+	\hfill
+	\parbox[t]{0.47\textwidth}{\caption{Ionization yield of nuclear recoils in liquid Ar at 2.3
+kV/cm as a function of the energy, measured in the present work
+(circles) and in T.H. Joshi et al. \cite{Joshi} (square). The
+theoretical predictions for the ionization yield are also shown,
+obtained in the frame of Thomas-Imel (dashed curve) and Yaffe (solid
+curve) models.}
+		\label{IonYieldVsE}}
+\end{figure}
+
+
+Basically there are two theoretical models that can describe the
+recombination effect in liquid noble gases and consequently the
+energy and field dependence of the ionization yield of nuclear
+recoils: that of Thomas-Imel \cite{TIModel1,TIModel2} and that of
+Jaffe \cite{JaffeModel1,JaffeModel2}.
+
+One can see in Fig.~\ref{IonYieldVsE} that the energy dependence
+measured in experiment fully contradicts to Thomas-Imel model
+\cite{TIModel1,TIModel2} that predicts the decreasing function with
+energy for the ionization yield. In this model,
+
+\begin{equation}
+\label{eq.3} n_e=\frac{N_i}{\xi}ln(1+\xi) ; \hspace{1ex}
+\xi=\frac{N_i C}{\mathcal{E}^b} ; \hspace{1ex} N_i=\frac{f
+E_0}{W_s^{min}} (1+N_{ex}/N_i)
+\end{equation}
+
+\begin{equation}
+\label{eq.4} Q_y=\frac{f}{W_s^{min}} (1+N_{ex}/N_i)
+\frac{ln(1+\xi)}{\xi}
+\end{equation}
+Here $b$ and $C$ are fitting constants, their values being taken
+from ref. \cite{Joshi} for the data point at 6.7 keV;
+$W_s^{min}$=19.5 eV is the minimum energy required to produce a
+scintillation photon (i.e. to produce excitation or ionization) in
+liquid Ar \cite{NobleRev}. The ratio of the number of excitations to
+that of ionizations was taken the same as in \cite{Joshi}:
+$N_{ex}/N_i$=0.2.
+
+$f$ is the Lindhard factor (also called quench factor),
+characterizing the nuclear recoil collisions; it is defined as the
+energy fraction transferred to ionization ($E_i$) and excitation
+($E_{ex}$):
+
+\begin{equation}
+\label{eq.5} f=(E_i+E_{ex})/E_0
+\end{equation}
+For electron recoils it is equal to unity. For nuclear recoils it
+can be calculated in two ways: either taking the calculations of
+Linhard et al. \cite{Lindhard} or using a SRIM computer program
+\cite{SRIM} developed for low energy ion collisions. In the present
+work we used the second method.
+
+In contrast to Thomas-Imel model, the Jaffe model \cite{JaffeModel1}
+in its compact form \cite{JaffeModel2} predicts the increasing
+function with energy for the ionization yield: see
+Fig.~\ref{IonYieldVsE}. In this form the model has a Birks-like
+equation \cite{JaffeModel2},
+
+\begin{equation}
+\label{eq.6} n_e=\frac{N_i}{1+k_B(dE/dx)/\mathcal{E}}
+\end{equation}
+Here $k_B$ is a constant; it was determined from the field
+dependence of the data of ref. \cite{Joshi} at 6.7 keV. The stopping
+power (energy losses) for excitation and ionization, $dE/dx$, was
+calculated using the SRIM program \cite{SRIM}.
+
+The equation for the ionization yield in the frame of this Jaffe
+model was derived ourselves from Eq.~6,
+
+\begin{equation}
+\label{eq.7}
+Q_y=\frac{f}{[1+k_B(dE/dx)/\mathcal{E}][E_g+E_{ph}(N_{ex}/N_i)]}
+\end{equation}
+using Eq.~5, where $E_i=N_i E_g$ and $E_{ex}=N_{ex}E_{ph}$ (see
+section 4 in ref. \cite{NobleRev} for more details of the energy
+balance in liquid noble gases). Here $E_g\simeq 14.2$ eV is the band
+gap in liquid Ar, which we adopt equal to that of solid Ar (see
+table 2 in ref. \cite{NobleRev}); $E_{ph}$=9.7~eV is the average
+energy of scintillation photon. In the lack of theoretical
+and experimental data for liquid Ar, the ratio $N_{ex}/N_i$ can be
+taken here either equal to that measured for nuclear recoils in
+liquid Xe \cite{Sorensen11}, namely $N_{ex}/N_i$=1, or 10 times
+greater than the ratio for electron recoils in liquid Ar (in the
+same way as it was for Xe - see table 2 in \cite{NobleRev}), namely
+$N_{ex}/N_i$=2. One can see that the Jaffe model can probably
+consistently describe the experimental data in terms of the energy
+dependence, and even in terms of the absolute values in the latter
+case.
+
+
+% has the same effect as \newpage but restricts floats as well
+\clearpage
+\section{Conclusions}
+
+Following our first work in the field \cite{CRADPropEL}, we continued to study the performance of the two-phase Cryogenic Avalanche Detector (CRAD) with electroluminescence (EL) gap, operated in argon doped with a minor (49$\pm$7 ppm) admixture of nitrogen. The results of the measurements of the N$_2$ content, detector sensitivity to X-ray-induced (electron-equivalent recoil) signals, EL gap yield and electron lifetime in the liquid were presented. The detector  sensitivity at a drift field in liquid Ar of about 0.6 kV/cm was measured to be 9 and 16 pe/keV at 23 and 88 keV respectively. The EL gap yield may reach 1.5 pe per drifting electron at an electric field in the gap of 7 kV/cm. The results obtained pave the way to the development of N$_2$-doped two-phase Ar detectors with enhanced sensitivity to the S2 signal. Such detectors are relevant in the field of argon detectors for dark matter search and low energy neutrino detection.
+
+
+% We suggest to always provide author, title and journal data:
+% in short all the informations that clearly identify a document.
+
+\begin{thebibliography}{99}
+
+
+% Please avoid comments such as "For a review'', "For some examples",
+% "and references therein" or move them in the text. In general,
+% please leave only references in the bibliography and move all
+% accessory text in footnotes.
+% Also, please have only one work for each \bibitem.
+
+%Author, \emph{Title}, \emph{J. Abbrev.} {\bf vol} (year) pg.
+
+\bibitem{IonYield_80_233_keV}
+A. Bondar et al., \emph{Measurement of the ionization yield of nuclear recoils in liquid argon at 80 and 233 keV}, \href{http://doi.org/10.1209/0295-5075/108/12001}{\emph{EPL} {\bf 108} (2014) 12001}
+
+\bibitem{NobleRev}
+V. Chepel, H. Araujo, \emph{Liquid noble gas detectors for low energy particle physics}, \href{http://doi.org/10.1088/1748-0221/8/04/R04001}{\emph{JINST} {\bf 8} (2013) R04001}
+
+\bibitem{Xenon10}
+J. Angle et al., \emph{Search for Light Dark Matter in XENON10 Data}, \href{https://doi.org/10.1103/PhysRevLett.107.051301}{\emph{Phys. Rev. Lett.} {\bf 107} (2011) 051301}
+
+\bibitem{Xenon100}
+E. Aprile at al., \emph{Dark Matter Results from 225 Live Days of XENON100 Data}, \href{https://doi.org/10.1103/PhysRevLett.109.181301}{\emph{Phys. Rev. Lett.} {\bf 109} (2012) 181301}
+
+\bibitem{Zeplin3}
+D. Akimov et al., \emph{WIMP-nucleon cross-section results from the second science run of ZEPLIN-III}, \href{http://dx.doi.org/10.1016/j.physletb.2012.01.064}{\emph{Phys. Lett. B} {\bf 709} (2012) 14}
+
+\bibitem{Warp}
+P. Benetti et al., \emph{First results from a dark matter search with liquid argon at 87 K in the Gran Sasso underground laboratory}, \href{http://dx.doi.org/10.1016/j.astropartphys.2007.08.002}{\emph{Astropart. Phys.} {\bf 28} (2007) 495 }
+
+\bibitem{Lux}
+D.S. Akerib et al., \emph{First Results from the LUX Dark Matter Experiment at the Sanford Underground Research Facility},  \href{https://doi.org/10.1103/PhysRevLett.112.091303}{\emph{Phys. Rev. Lett.} {\bf 112} (2014) 091303}
+
+\bibitem{ArDM}
+A. Badertscher et al., \emph{ArDM: first results from underground commissioning},  \href{https://doi.org/10.1088/1748-0221/8/09/C09005}{\emph{JINST} {\bf 8} (2013) C09005}
+
+\bibitem{Darkside}
+T. Alexander et al., \emph{DarkSide search for dark matter},  \href{https://doi.org/10.1088/1748-0221/8/11/C11021}{\emph{JINST} {\bf 8} (2013) C11021}
+
+
+\bibitem{CoNu1}
+C. Hagmann, A. Bernstein, \emph{Two-phase emission detector for measuring coherent neutrino-nucleus scattering}, \href{https://doi.org/10.1109/TNS.2004.836061}{\emph{IEEE Trans. Nucl. Sci.} {\bf 51} (2004) 2151}
+
+\bibitem{CoNu2}
+D. Akimov et al., \emph{Detection of reactor antineutrino coherent scattering off nuclei with a two-phase noble gas detector}, \href{https://doi.org/10.1088/1748-0221/4/06/P06010}{\emph{JINST} {\bf 4} (2009) P06010}
+
+\bibitem{LXeYield1}
+A.Manzur et al., \emph{Scintillation efficiency and ionization yield of liquid xenon for monoenergetic nuclear recoils down to 4 keV}, \href{https://doi.org/10.1103/PhysRevC.81.025808}{\emph{Phys. Rev. C} {\bf 81} (2010) 025808}
+
+\bibitem{LXeYield2}
+M.Horn et al, \emph{Nuclear recoil scintillation and ionisation yields in liquid xenon from ZEPLIN-III data}, \href{http://dx.doi.org/10.1016/j.physletb.2011.10.038}{\emph{Phys. Lett. B} {\bf 705} (2011) 471}
+
+\bibitem{LXeYield3}
+G. Plante et al, \emph{New measurement of the scintillation efficiency of low-energy nuclear recoils in liquid xenon}, \href{https://doi.org/10.1103/PhysRevC.84.045805}{\emph{Phys. Rev. C} {\bf 84} (2011) 045805}
+
+\bibitem{Joshi}
+T.H. Joshi et al., \emph{First Measurement of the Ionization Yield of Nuclear Recoils in Liquid Argon}, \href{https://doi.org/10.1103/PhysRevLett.112.171303}{\emph{Phys. Rev. Lett.} {\bf 112} (2014) 171303}
+
+\bibitem{Cao}
+H. Cao et al., \emph{Measurement of scintillation and ionization yield and scintillation pulse shape from nuclear recoils in liquid argon}, \href{https://doi.org/10.1103/PhysRevD.91.092007}{\emph{Phys. Rev. D} {\bf 91} (2015) 092007}
+
+\bibitem{LArScint}
+D. Gastler et al., \emph{Measurement of scintillation efficiency for nuclear recoils in liquid argon}, \href{https://doi.org/10.1103/PhysRevC.85.065811}{\emph{Phys. Rev. C} {\bf 85} (2012) 065811}
+
+\bibitem{CRADRev}
+A. Buzulutskov, \emph{Advances in Cryogenic Avalanche Detectors}, \href{https://doi.org/10.1088/1748-0221/7/02/C02025}{\emph{JINST} {\bf 7} (2012) C02025}
+
+\bibitem{THGEMRev}
+A. Breskin et al., \emph{A concise review on THGEM detectors}, \href{http://dx.doi.org/10.1016/j.nima.2008.08.062}{\emph{Nucl. Instr. Meth. A} {\bf 598} (2009) 107}
+
+\bibitem{CRAD-THGEM}
+A. Bondar et al., \emph{Two-phase Cryogenic Avalanche Detectors with THGEM and hybrid THGEM/GEM multipliers operated in Ar and Ar+N2}, \href{https://doi.org/10.1088/1748-0221/8/02/P02008}{\emph{JINST} {\bf 8} (2013) P02008}
+
+\bibitem{NIRStudy1}
+A. Bondar et al., \emph{Infrared scintillation yield in gaseous and liquid argon}, \href{https://doi.org/10.1209/0295-5075/94/52001}{\emph{EPL} {\bf 94} (2011) 52001}
+
+\bibitem{NIRStudy2-CRADProject}
+A.Bondar et al., \emph{Study of infrared scintillations in gaseous and liquid argon. Part II: light yield and possible applications}, \href{https://doi.org/10.1088/1748-0221/7/06/P06014}{\emph{JINST} {\bf 7} (2012) P06014}
+
+\bibitem{CRAD-GAPDMatrix}
+A. Bondar et al., \emph{First demonstration of THGEM/GAPD-matrix optical readout in a two-phase Cryogenic Avalanche Detector in Ar}, \href{http://dx.doi.org/10.1016/j.nima.2013.07.089}{\emph{Nucl. Instr. Meth. A} {\bf 732} (2013) 213}
+
+\bibitem{Barabash93}
+A. Barabash, A. Bolozdynya, \emph{Liquid ionization detectors}, \href{}{\emph{Energoatomizdat, Moscow} {\bf } (1993) (In Russian) }
+
+\bibitem{NCount}
+A. Bondar et al., \emph{Nuclear recoil detection in liquid argon using a
+two-phase CRAD and DD neutron generator
+}, \href{https://doi.org/10.1088/1748-0221/9/08/C08020}{\emph{JINST} {\bf 9} (2014) C08020}
+
+\bibitem{NScatProp}
+A. Bondar et al., \emph{Proposal for Neutron Scattering Systems for Calibration of Dark Matter Search and Low-Energy Neutrino Detectors}, \href{}{\emph{Bulletin NSU: Physics} {\bf 8, issue 3} (2013) 27 (in Russian)}
+
+\bibitem{NGen}
+E. Grishnyaev, S. Polosatkin, \emph{Yield determination for a titanium neutron-forming target}, \href{}{\emph{Atomic Energy} {\bf 113, No. 5} (2013) 345 (in Russian)}
+
+\bibitem{TPAr-Emission}
+A. Bondar et al., \emph{Electron emission properties of two-phase argon and argon-nitrogen avalanche detectors}, \href{http://dx.doi.org/10.1088/1748-0221/4/09/P09013}{\emph{JINST} {\bf 4} (2009) P09013}
+
+\bibitem{Voronova89}
+T.Ya. Voronova et al., \href{}{\emph{Journal of Technical Physics} {\bf 59, issue 7} (1989) 186 (in Russian)}
+
+\bibitem{Shibamura75}
+E. Shibamura et al., \emph{Drift velocities of electrons, saturation characteristics of ionization and W-values for conversion electrons in liquid argon, liquid argon-gas mixtures and liquid xenon}, \href{https://doi.org/10.1016/0029-554X(75)90327-4}{\emph{Nucl. Instr. Meth.} {\bf 131} (1975) 249}
+
+\bibitem{Obodovskiy79}
+I. Obodovskiy, S. Pokachalov, \emph{The average ionization energy in liquid and crystalline xenon}, \href{}{\emph{Physics of Low Temperatures} {\bf 5, No. 8} (1979) 829 (in Russian)}
+
+\bibitem{Scallettar82}
+R. Scallettar et al., \emph{Critical test of geminate recombination in liquid argon}, \href{https://doi.org/10.1103/PhysRevA.25.2419}{\emph{Phys. Rev.} {\bf 25} (1982) 2419}
+
+\bibitem{QFStilbene}
+Y. Shimizu et al., \emph{Directional scintillation detector for the detection of the wind of WIMPs}, \href{http://dx.doi.org/10.1016/S0168-9002(02)01661-3}{\emph{Nucl. Instr. Meth. A} {\bf 496} (2003) 347}
+
+\bibitem{Knoll}
+G. Knoll, \emph{Radiation Detection and Measurement}, \href{}{\emph{Wiley} {\bf } (2010) }
+
+\bibitem{NSpectr}
+E. Grishnyaev et al., \emph{The Computer Programm for Statistical Modelling of Fast Neutrons Scattering in Cryogenic Detector of Weakly Interacting Particles}, \href{}{\emph{Bulletin NSU: Physics} {\bf 8, issue 3} (2013) 39 (in Russian)}
+
+\bibitem{NData}
+M. Chadwick et al., \emph{ENDF/B-VII.0: Next Generation Evaluated Nuclear Data Library for Nuclear Science and Technology}, \href{https://doi.org/10.1016/j.nds.2006.11.001}{\emph{Nuclear Data Sheets} {\bf 107} (2006) 2931}
+
+\bibitem{NEST}
+M. Szydagis et al., \emph{Enhancement of NEST capabilities for simulating low-energy recoils in liquid xenon}, \href{https://doi.org/10.1088/1748-0221/8/10/C10003}{\emph{JINST} {\bf 8} (2013) C10003}
+
+\bibitem{TIModel1}
+J. Thomas, D. Imel, \emph{Recombination of electron-ion pairs in liquid argon and liquid xenon}, \href{https://doi.org/10.1103/PhysRevA.36.614}{\emph{Phys. Rev. A} {\bf 36} (1987) 614}
+
+\bibitem{TIModel2}
+M.Szydagis et al., \emph{NEST: a comprehensive model for scintillation yield in liquid xenon}, \href{https://doi.org/10.1088/1748-0221/6/10/P10002}{\emph{JINST} {\bf 6} (2011) P10002}
+
+\bibitem{JaffeModel1}
+G. Jaffe, \emph{Zur Theorie der Ionisation in Kolonnen}, \href{https://doi.org/10.1002/andp.19133471205}{\emph{Ann. Phys.} {\bf 42} (1913) 303}
+
+\bibitem{JaffeModel2}
+R. Acciarri et al., \emph{A study of electron recombination using highly ionizing particles in the ArgoNeuT Liquid Argon TPC}, \href{https://doi.org/10.1088/1748-0221/8/08/P08005}{\emph{JINST} {\bf 8} (2013) P08005}
+
+\bibitem{Lindhard}
+J. Lindhard et al., \emph{Integral equations governing radiation effects}, \href{}{\emph{I kommission hos Munksgaard, Copenhagen} {\bf } (1963) }
+
+\bibitem{SRIM}
+J. Biersack et al., \emph{The Stopping and Range of Ions in Solids}, \href{}{\emph{Pergamon Press, New York} {\bf } (1985) }
+
+\bibitem{Sorensen11}
+C. Dahl, P. Sorensen, \emph{Nuclear recoil energy scale in liquid xenon with application to the direct detection of dark matter}, \href{https://doi.org/10.1103/PhysRevD.83.063501}{\emph{Phys. Rev. D} {\bf 83} (2011) 063501}
+
+\bibitem{PropEluctroLumInAr}
+A. Bondar et al., \emph{Proportional electroluminescence in two-phase argon and its relevance to rare-event experiments}, \href{https://doi.org/10.1209/0295-5075/112/19001}{\emph{EPL} {\bf 112} (2015) 19001}
+
+\bibitem{Two-phaseCRAD}
+A. Bondar et al., \emph{Two-phase Cryogenic Avalanche Detector with electroluminescence gap operated in argon doped with nitrogen}, \href{http://dx.doi.org/10.1016/j.nima.2016.05.109}{\emph{Nucl. Instr. Meth. A} {\bf 845} (2017) 206}
+
+%\bibitem{}
+%, \emph{}, \href{}{\emph{} {\bf } () }
+
+
+\end{thebibliography}
+\end{document}

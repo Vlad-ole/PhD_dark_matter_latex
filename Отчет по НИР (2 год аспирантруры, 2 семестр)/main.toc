@@ -1,0 +1,8 @@
+\select@language {russian}
+\contentsline {section}{\numberline {1.\hskip .5em\relax }Введение}{3}
+\contentsline {section}{\numberline {2.\hskip .5em\relax }Алгоритм нахождения кросстоков и послеимпульсов}{3}
+\contentsline {section}{\numberline {3.\hskip .5em\relax }Результаты}{6}
+\contentsline {subsection}{\numberline {3.1.\hskip .5em\relax }Темновой шум}{6}
+\contentsline {subsection}{\numberline {3.2.\hskip .5em\relax }Кроссток}{6}
+\contentsline {subsection}{\numberline {3.3.\hskip .5em\relax }Послеимпульсы}{7}
+\contentsline {section}{\numberline {4.\hskip .5em\relax }Выводы}{8}

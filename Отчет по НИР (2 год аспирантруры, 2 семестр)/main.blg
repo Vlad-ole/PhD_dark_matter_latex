@@ -1,0 +1,39 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+A level-1 auxiliary file: first_page.aux
+A level-1 auxiliary file: content_rus.aux
+White space in argument---line 2 of file content_rus.aux
+ : \citation{SiPM
+ :                based photon counting detector for scanning digital radiography}
+I'm skipping whatever remains of this command
+White space in argument---line 3 of file content_rus.aux
+ : \citation{Characterisation
+ :                            Studies of Silicon Photomultipliers}
+I'm skipping whatever remains of this command
+White space in argument---line 4 of file content_rus.aux
+ : \citation{Modeling
+ :                    crosstalk in silicon photomultipliers}
+I'm skipping whatever remains of this command
+White space in argument---line 5 of file content_rus.aux
+ : \citation{Characterization
+ :                            and Simulation of the Response,After-pulsingandcross-talkinmulti-pixelphotoncounters,Using MPPCs for T2K Fine Grain Detector}
+I'm skipping whatever remains of this command
+White space in argument---line 6 of file content_rus.aux
+ : \citation{Characterisation
+ :                            Studies of Silicon Photomultipliers}
+I'm skipping whatever remains of this command
+White space in argument---line 10 of file content_rus.aux
+ : \citation{After-pulsingandcross-talkinmulti-pixelphotoncounters,Using
+ :                                                                       MPPCs for T2K Fine Grain Detector,Characterization and Simulation of the Response}
+I'm skipping whatever remains of this command
+White space in argument---line 13 of file content_rus.aux
+ : \citation{Using
+ :                 MPPCs for T2K Fine Grain Detector}
+I'm skipping whatever remains of this command
+White space in argument---line 14 of file content_rus.aux
+ : \citation{Characterization
+ :                            of SiPM: temperature dependencies}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: bibliography.aux
+I found no \bibdata command---while reading file main.aux
+I found no \bibstyle command---while reading file main.aux
+(There were 10 error messages)

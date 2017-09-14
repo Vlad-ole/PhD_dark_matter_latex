@@ -1,0 +1,697 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  3 APR 2017 16:41
+entering extended mode
+**D:/git_repositories/PhD_dark_matter_latex/article_EPL_Latex_V3/Paper.tex
+(D:/git_repositories/PhD_dark_matter_latex/article_EPL_Latex_V3/Paper.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(D:\git_repositories\PhD_dark_matter_latex\article_EPL_Latex_V3\epl2.cls
+Document Class: epl2 2006/05/31 v0.1 Europhysics Letters 2 class
+(D:\LaTex\Full_TeX\texmf\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(D:\LaTex\Full_TeX\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(D:\LaTex\Full_TeX\texmf\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(D:\LaTex\Full_TeX\texmf\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(D:\LaTex\Full_TeX\texmf\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+(D:\LaTex\Full_TeX\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\LaTex\Full_TeX\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\LaTex\Full_TeX\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\tools\bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\lineno\lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count80
+\output=\toks15
+\linenoprevgraf=\count81
+\linenumbersep=\dimen104
+\linenumberwidth=\dimen105
+\c@linenumber=\count82
+\c@pagewiselinenumber=\count83
+\c@LN@truepage=\count84
+\c@internallinenumber=\count85
+\c@internallinenumbers=\count86
+\quotelinenumbersep=\dimen106
+\bframerule=\dimen107
+\bframesep=\dimen108
+\bframebox=\box26
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\epl@stretchminskip=\skip41
+\epl@stretchmedskip=\skip42
+\epl@stretchmaxskip=\skip43
+\epl@stretchpretitle=\skip44
+\epl@stretchpreauthor=\skip45
+\epl@stretchpreinst=\skip46
+\epl@stretchpredates=\skip47
+\epl@stretchprepacs=\skip48
+\epl@stretchpreabst=\skip49
+\epl@stretchprerule=\skip50
+\epl@stretchpostrule=\skip51
+\epl@prebiblio=\skip52
+\epl@postbiblio=\skip53
+\c@epl@cnt@and=\count87
+\c@epl@cnt@and@aux=\count88
+\epl@pacsindent=\skip54
+\epl@maketitle@smallskip=\skip55
+\epl@maketitle@medskip=\skip56
+\epl@maketitle@bigskip=\skip57
+\epl@dedication@skip=\skip58
+\epl@section@vskip=\skip59
+\epl@section@hsep=\skip60
+\epl@section@indent=\skip61
+\epl@subsection@vskip=\skip62
+\epl@subsection@hsep=\skip63
+\epl@subsection@indent=\skip64
+\epl@acknowledgments@skip=\skip65
+\c@epl@eqnfloat=\count89
+\c@figure=\count90
+\c@epl@figures=\count91
+\c@table=\count92
+\abovecaptionskip=\skip66
+\belowcaptionskip=\skip67
+\bibindent=\dimen109
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\graphics\epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(D:\LaTex\Full_TeX\texmf\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+(D:\LaTex\Full_TeX\texmf\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(D:\LaTex\Full_TeX\texmf\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen112
+))
+(D:\LaTex\Full_TeX\texmf\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+LaTeX Info: Redefining \boldsymbol on input line 39.
+\pmbraise@=\dimen113
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks20
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+No file Paper.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+(D:\LaTex\Full_TeX\texmf\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen121
+\scratchbox=\box29
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen122
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks23
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+ (D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+
+(D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `NobleRev' on page p-1 undefined on input line 62.
+
+
+LaTeX Warning: Citation `Xenon10' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Xenon100' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Zeplin3' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Warp' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Lux' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `ArDM' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Darkside' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Dama' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Cogent' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Crest' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Cdms' on page p-1 undefined on input line 64.
+
+
+LaTeX Warning: Citation `CoNu1' on page p-1 undefined on input line 65.
+
+
+LaTeX Warning: Citation `CoNu2' on page p-1 undefined on input line 65.
+
+
+LaTeX Warning: Citation `LXeYield1' on page p-1 undefined on input line 72.
+
+
+LaTeX Warning: Citation `LXeYield2' on page p-1 undefined on input line 72.
+
+
+LaTeX Warning: Citation `LXeYield3' on page p-1 undefined on input line 72.
+
+
+LaTeX Warning: Citation `Joshi' on page p-1 undefined on input line 73.
+
+
+LaTeX Warning: Citation `Cao' on page p-1 undefined on input line 73.
+
+
+LaTeX Warning: Citation `LArScint' on page p-1 undefined on input line 74.
+
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+
+LaTeX Warning: Citation `Joshi' on page p-1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Cao' on page p-1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `ArDM' on page p-1 undefined on input line 84.
+
+
+LaTeX Warning: Citation `Darkside' on page p-1 undefined on input line 84.
+
+
+LaTeX Warning: Citation `CRADRev' on page p-1 undefined on input line 86.
+
+
+LaTeX Warning: Citation `CRADRev' on page p-1 undefined on input line 89.
+
+
+LaTeX Warning: Citation `THGEMRev' on page p-1 undefined on input line 90.
+
+
+LaTeX Warning: Citation `CRAD-THGEM' on page p-1 undefined on input line 90.
+
+
+LaTeX Warning: Citation `NIRStudy1' on page p-1 undefined on input line 92.
+
+
+LaTeX Warning: Citation `NIRStudy2-CRADProject' on page p-1 undefined on input 
+line 92.
+
+
+LaTeX Warning: Citation `CRAD-GAPDMatrix' on page p-1 undefined on input line 9
+2.
+
+
+LaTeX Warning: Citation `NobleRev' on page p-1 undefined on input line 106.
+
+
+LaTeX Warning: Citation `Barabash93' on page p-1 undefined on input line 106.
+
+
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+ [1{D:/LaTex/Full_TeX/texmf/pdftex/config/pdftex.map}
+
+
+]
+
+LaTeX Warning: Citation `CRAD-THGEM' on page p-2 undefined on input line 125.
+
+
+LaTeX Warning: Citation `NCount' on page p-2 undefined on input line 125.
+
+Missing character: There is no ’ in font cmr10!
+
+LaTeX Warning: Citation `NScatProp' on page p-2 undefined on input line 153.
+
+
+LaTeX Warning: Citation `NGen' on page p-2 undefined on input line 153.
+
+
+LaTeX Warning: Citation `NCount' on page p-2 undefined on input line 181.
+
+
+LaTeX Warning: Reference `SpectrRaw' on page p-2 undefined on input line 185.
+
+
+LaTeX Warning: Citation `TPAr-Emission' on page p-2 undefined on input line 200
+.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ...mnwidth]{fig1_Spectrum_Signal+Backgr.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `SpectrRaw' on page p-2 undefined on input line 213.
+
+
+LaTeX Warning: Reference `EIonYield' on page p-2 undefined on input line 222.
+
+
+LaTeX Warning: Citation `NIRStudy1' on page p-2 undefined on input line 235.
+
+
+LaTeX Warning: Citation `NIRStudy2-CRADProject' on page p-2 undefined on input 
+line 236.
+
+[2]
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 ....9\columnwidth]{fig2_EIonYieldLArLXe.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Voronova89' on page p-3 undefined on input line 253.
+
+
+LaTeX Warning: Citation `Shibamura75' on page p-3 undefined on input line 253.
+
+
+LaTeX Warning: Citation `Obodovskiy79' on page p-3 undefined on input line 253.
+
+
+
+LaTeX Warning: Citation `Scallettar82' on page p-3 undefined on input line 253.
+
+
+
+LaTeX Warning: Citation `Shibamura75' on page p-3 undefined on input line 253.
+
+
+LaTeX Warning: Citation `Barabash93' on page p-3 undefined on input line 253.
+
+
+LaTeX Warning: Citation `Voronova89' on page p-3 undefined on input line 253.
+
+
+LaTeX Warning: Citation `Shibamura75' on page p-3 undefined on input line 253.
+
+
+LaTeX Warning: Citation `Obodovskiy79' on page p-3 undefined on input line 253.
+
+
+
+LaTeX Warning: Citation `Scallettar82' on page p-3 undefined on input line 253.
+
+
+
+LaTeX Warning: Citation `Shibamura75' on page p-3 undefined on input line 253.
+
+
+LaTeX Warning: Citation `Barabash93' on page p-3 undefined on input line 253.
+
+
+LaTeX Warning: Citation `NobleRev' on page p-3 undefined on input line 259.
+
+
+LaTeX Warning: Reference `EIonYield' on page p-3 undefined on input line 260.
+
+
+LaTeX Warning: Reference `NCounter' on page p-3 undefined on input line 268.
+
+
+LaTeX Warning: Citation `Knoll' on page p-3 undefined on input line 284.
+
+
+LaTeX Warning: Reference `SpectrNeutron' on page p-3 undefined on input line 28
+8.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297 ...idth=0.99\columnwidth]{fig3_NCounter.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `QFStilbene' on page p-3 undefined on input line 309.
+
+
+LaTeX Warning: Citation `QFStilbene' on page p-3 undefined on input line 309.
+
+
+LaTeX Warning: Reference `SpectrNeutron' on page p-3 undefined on input line 31
+2.
+
+
+LaTeX Warning: Reference `SpectrRaw' on page p-3 undefined on input line 314.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.320 ...mnwidth]{fig4_Spectrum_Signal-Backgr.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `SpectrRaw' on page p-3 undefined on input line 329.
+
+
+LaTeX Warning: Reference `SpectrRaw' on page p-3 undefined on input line 329.
+
+
+LaTeX Warning: Citation `NSpectr' on page p-3 undefined on input line 333.
+
+
+LaTeX Warning: Citation `NData' on page p-3 undefined on input line 335.
+
+
+LaTeX Warning: Reference `SpectrTheory' on page p-3 undefined on input line 337
+.
+
+
+LaTeX Warning: Reference `SpectrNeutron' on page p-3 undefined on input line 34
+7.
+
+
+LaTeX Warning: Reference `SpectrNeutron' on page p-3 undefined on input line 35
+0.
+
+
+LaTeX Warning: Reference `SpectrTheory' on page p-3 undefined on input line 351
+.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.354 ...h=0.9\columnwidth]{fig5_TheorSpectra.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `eq.1' on page p-3 undefined on input line 372.
+
+
+LaTeX Warning: Reference `SpectrTheory' on page p-3 undefined on input line 378
+.
+
+[3]
+
+LaTeX Warning: Reference `EIonYield' on page p-4 undefined on input line 415.
+
+
+LaTeX Warning: Reference `IonYieldVsE' on page p-4 undefined on input line 425.
+
+
+
+LaTeX Warning: Citation `Joshi' on page p-4 undefined on input line 426.
+
+
+LaTeX Warning: Citation `Joshi' on page p-4 undefined on input line 429.
+
+
+LaTeX Warning: Citation `Cao' on page p-4 undefined on input line 435.
+
+
+LaTeX Warning: Citation `NEST' on page p-4 undefined on input line 439.
+
+
+! LaTeX Error: Unknown graphics extension: .eps.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.442 ...width=0.8\columnwidth]{fig6_IonYield.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Joshi' on page p-4 undefined on input line 448.
+
+
+LaTeX Warning: Citation `Joshi' on page p-4 undefined on input line 448.
+
+
+LaTeX Warning: Citation `TIModel1' on page p-4 undefined on input line 454.
+
+
+LaTeX Warning: Citation `TIModel2' on page p-4 undefined on input line 454.
+
+
+LaTeX Warning: Citation `JaffeModel1' on page p-4 undefined on input line 455.
+
+
+LaTeX Warning: Citation `JaffeModel2' on page p-4 undefined on input line 455.
+
+
+LaTeX Warning: Reference `IonYieldVsE' on page p-4 undefined on input line 457.
+
+
+
+LaTeX Warning: Citation `TIModel1' on page p-4 undefined on input line 459.
+
+
+LaTeX Warning: Citation `TIModel2' on page p-4 undefined on input line 459.
+
+
+LaTeX Warning: Citation `Joshi' on page p-4 undefined on input line 473.
+
+
+LaTeX Warning: Citation `NobleRev' on page p-4 undefined on input line 476.
+
+
+LaTeX Warning: Citation `Joshi' on page p-4 undefined on input line 477.
+
+
+LaTeX Warning: Citation `Lindhard' on page p-4 undefined on input line 490.
+
+
+LaTeX Warning: Citation `SRIM' on page p-4 undefined on input line 491.
+
+
+LaTeX Warning: Citation `JaffeModel1' on page p-4 undefined on input line 494.
+
+
+LaTeX Warning: Citation `JaffeModel2' on page p-4 undefined on input line 495.
+
+
+LaTeX Warning: Reference `IonYieldVsE' on page p-4 undefined on input line 497.
+
+
+
+LaTeX Warning: Citation `JaffeModel2' on page p-4 undefined on input line 498.
+
+[4]
+
+LaTeX Warning: Citation `Joshi' on page p-5 undefined on input line 504.
+
+
+LaTeX Warning: Citation `SRIM' on page p-5 undefined on input line 506.
+
+
+LaTeX Warning: Citation `NobleRev' on page p-5 undefined on input line 516.
+
+
+LaTeX Warning: Citation `NobleRev' on page p-5 undefined on input line 519.
+
+
+LaTeX Warning: Citation `Sorensen11' on page p-5 undefined on input line 529.
+
+
+LaTeX Warning: Citation `NobleRev' on page p-5 undefined on input line 529.
+
+[5] [6
+
+]
+(D:\git_repositories\PhD_dark_matter_latex\article_EPL_Latex_V3\Paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2781 strings out of 493921
+ 34145 string characters out of 3150556
+ 105834 words of memory out of 3000000
+ 6031 multiletter control sequences out of 15000+200000
+ 19974 words of font info for 73 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 32i,10n,26p,927b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/LaTex/
+Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/LaTex/Full_TeX/texm
+f/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/LaTex/Full_TeX/texmf/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/La
+Tex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/LaTex/Full_TeX/
+texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/LaTex/Full_TeX/texmf/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/ams
+fonts/cm/cmr8.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmr9.
+pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/LaTex
+/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/LaTex/Full_TeX/
+texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/LaTex/Full_TeX/texmf/fonts/
+type1/public/amsfonts/cm/cmsy6.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/c
+msy9.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:
+/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmti9.pfb><D:/LaTex/Full_T
+eX/texmf/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Paper.pdf (6 pages, 291325 bytes).
+PDF statistics:
+ 105 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

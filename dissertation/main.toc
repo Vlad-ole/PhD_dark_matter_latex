@@ -1,2 +1,6 @@
 \select@language {russian}
 \contentsline {section}{Введение}{3}
+\contentsline {section}{\numberline {1.\hskip .5em\relax }Работа комбинированного умножителя}{6}
+\contentsline {section}{\numberline {2.\hskip .5em\relax }Определение ионизационного выхода ядер отдачи по краю спектра}{6}
+\contentsline {section}{\numberline {3.\hskip .5em\relax }S1 / S2 критерий разделения нейтронов и гамма-квантов}{6}
+\contentsline {section}{\numberline {4.\hskip .5em\relax }Двойное рассеяние нейтронов}{6}

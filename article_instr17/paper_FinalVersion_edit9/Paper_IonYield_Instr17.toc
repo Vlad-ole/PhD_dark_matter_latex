@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Experimental setup}{2}{section.2}
+\contentsline {section}{\numberline {3}Experimental results}{3}{section.3}
+\contentsline {section}{\numberline {4}Comparison with theoretical model and with other experiments}{6}{section.4}
+\contentsline {section}{\numberline {5}Conclusions}{8}{section.5}

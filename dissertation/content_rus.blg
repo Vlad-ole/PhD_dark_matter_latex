@@ -1,5 +1,105 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: content_rus.aux
-I found no \citation commands---while reading file content_rus.aux
+White space in argument---line 2 of file content_rus.aux
+ : \citation{Detectors
+ :                     for Dark Matter search (Review),Advances in Cryogenic Avalanche Detectors,Liquid Noble Gas Detectors for Low Energy Particle Physics}
+I'm skipping whatever remains of this command
+White space in argument---line 3 of file content_rus.aux
+ : \citation{New
+ :               Results from DAMA/LIBRA}
+I'm skipping whatever remains of this command
+White space in argument---line 4 of file content_rus.aux
+ : \citation{CoGeNT:
+ :                   A Search for Low-Mass Dark Matter using p-type Point Contact Germanium Detectors}
+I'm skipping whatever remains of this command
+White space in argument---line 5 of file content_rus.aux
+ : \citation{Results
+ :                   from 730 kg Days of the CRESST-II Dark Matter search}
+I'm skipping whatever remains of this command
+White space in argument---line 6 of file content_rus.aux
+ : \citation{Dark
+ :                Matter Search Results Using the Silicon Detectors of CDMS II}
+I'm skipping whatever remains of this command
+White space in argument---line 7 of file content_rus.aux
+ : \citation{Search
+ :                  for Light Dark Matter in XENON10 Data}
+I'm skipping whatever remains of this command
+White space in argument---line 8 of file content_rus.aux
+ : \citation{Dark
+ :                Matter Results from 225 Live Days of XENON100 Data}
+I'm skipping whatever remains of this command
+White space in argument---line 9 of file content_rus.aux
+ : \citation{WIMP-Nucleon
+ :                        CrossSection Results from the Second Science Run of ZEPLIN-III}
+I'm skipping whatever remains of this command
+White space in argument---line 10 of file content_rus.aux
+ : \citation{Two-Phase
+ :                     Emission Detector for Measuring Coherent Neutrino-Nucleus Scattering,Detection of Reactor Antineutrino Coherent Scattering off Nuclei with a Two-Phase Noble Gas Detector}
+I'm skipping whatever remains of this command
+White space in argument---line 11 of file content_rus.aux
+ : \citation{Comments
+ :                    on "First Dark Matter Results from the XENON100 Experiment",A Coherent Understanding of Low-Energy Nuclear Recoils in Liquid Xenon}
+I'm skipping whatever remains of this command
+White space in argument---line 12 of file content_rus.aux
+ : \citation{Search
+ :                  for Light Dark Matter in XENON10 Data,Dark Matter Results from 225 Live Days of XENON100 Data,WIMP-Nucleon CrossSection Results from the Second Science Run of ZEPLIN-III}
+I'm skipping whatever remains of this command
+White space in argument---line 13 of file content_rus.aux
+ : \citation{Two-Phase
+ :                     Emission Detector for Measuring Coherent Neutrino-Nucleus Scattering,Detection of Reactor Antineutrino Coherent Scattering off Nuclei with a Two-Phase Noble Gas Detector}
+I'm skipping whatever remains of this command
+White space in argument---line 14 of file content_rus.aux
+ : \citation{Detectors
+ :                     for Dark Matter search (Review),Advances in Cryogenic Avalanche Detectors,Liquid Noble Gas Detectors for Low Energy Particle Physics}
+I'm skipping whatever remains of this command
+White space in argument---line 15 of file content_rus.aux
+ : \citation{Search
+ :                  for Light Dark Matter in XENON10 Data,Dark Matter Results from 225 Live Days of XENON100 Data,WIMP-Nucleon CrossSection Results from the Second Science Run of ZEPLIN-III}
+I'm skipping whatever remains of this command
+White space in argument---line 16 of file content_rus.aux
+ : \citation{Neutrino
+ :                    Detection with CLEAN,A Concept for a Dark Matter Detector Using Liquid Helium-4}
+I'm skipping whatever remains of this command
+White space in argument---line 18 of file content_rus.aux
+ : \citation{New
+ :               Results from DAMA/LIBRA}
+I'm skipping whatever remains of this command
+White space in argument---line 19 of file content_rus.aux
+ : \citation{CoGeNT:
+ :                   A Search for Low-Mass Dark Matter using p-type Point Contact Germanium Detectors}
+I'm skipping whatever remains of this command
+White space in argument---line 20 of file content_rus.aux
+ : \citation{Two-Phase
+ :                     Emission Detector for Measuring Coherent Neutrino-Nucleus Scattering,A Concept for a Dark Matter Detector Using Liquid Helium-4,A Survey of Energy Loss Calculations for Heavy Ions between 1 and 100 kev,A Model of Nuclear Recoil Scintillation Efficiency in Noble Liquids}
+I'm skipping whatever remains of this command
+White space in argument---line 21 of file content_rus.aux
+ : \citation{Ionization
+ :                      Efficiency Study for Low Energy Nuclear Recoils in Germanium}
+I'm skipping whatever remains of this command
+White space in argument---line 22 of file content_rus.aux
+ : \citation{Quenching
+ :                     and Channeling of Nuclear Recoils in NaI[Tl]: Implications for Dark Matter Searches}
+I'm skipping whatever remains of this command
+White space in argument---line 23 of file content_rus.aux
+ : \citation{Scintillation
+ :                         Efficiency and Ionization Yield of Liquid Xenon for Monoenergetic Nuclear Recoils down to 4 keV,Nuclear Recoil Scintillation and Ionisation Yields in Liquid Xenon from ZEPLIN-III Data,New Measurement of the Scintillation Efficiency of Low-Energy Nuclear Recoils in Liquid Xenon}
+I'm skipping whatever remains of this command
+White space in argument---line 24 of file content_rus.aux
+ : \citation{Two-Phase
+ :                     Emission Detector for Measuring Coherent Neutrino-Nucleus Scattering,Measurement of Scintillation Efficiency for Nuclear Recoils in Liquid Argon,Study of Nuclear Recoils in Liquid Argon with Monoenergetic Neutrons}
+I'm skipping whatever remains of this command
+White space in argument---line 25 of file content_rus.aux
+ : \citation{Scintillation
+ :                         Yield and Time Dependence from Electronic and Nuclear Recoils in Liquid Neon}
+I'm skipping whatever remains of this command
+White space in argument---line 26 of file content_rus.aux
+ : \citation{A
+ :             Concept for a Dark Matter Detector Using Liquid Helium-4}
+I'm skipping whatever remains of this command
+White space in argument---line 27 of file content_rus.aux
+ : \citation{Advances
+ :                    in Cryogenic Avalanche Detectors}
+I'm skipping whatever remains of this command
+I found no cite keys---while reading file content_rus.aux
 I found no \bibdata command---while reading file content_rus.aux
 I found no \bibstyle command---while reading file content_rus.aux
-(There were 3 error messages)
+(There were 28 error messages)

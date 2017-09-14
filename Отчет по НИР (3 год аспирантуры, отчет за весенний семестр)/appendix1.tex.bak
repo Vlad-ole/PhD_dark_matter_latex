@@ -1,0 +1,26 @@
+\section*{Приложение А. Список опубликованных и готовящихся к публикации статей}
+\addcontentsline{toc}{section}{Приложение А. Список опубликованных и готовящихся к публикации статей}
+
+Опубликованные статьи:
+\begin{enumerate}
+  \item Babichev E.A. et al. SiPM based photon counting detector for scanning digital radiography // 
+  \href{https://doi.org/10.1088/1748-0221/10/03/C03002}{J. of Instrumentation. 2015. Vol. 10. C03002.}
+
+  \item Babichev E.A. et al. Photon counting detector for the personal radiography inspection system “SIBSCAN” //
+  \href{https://doi.org/10.1016/j.nima.2016.06.051}{Nucl. Instrum. Meth. A. 2017. Vol. 845. P. 499.}
+  
+  \item Kuper K.E. et al. On reachable energy resolution of SiPM based scintillation counters for X-ray detection //
+  \href{https://doi.org/10.1088/1748-0221/12/01/P01001}{J. of Instrumentation. 2017. Vol. 12. P01001.}
+  
+  \item Bondar A. et al. Measurement of the ionization yield of nuclear recoils in liquid argon using a two-phase detector with electroluminescence gap // \\  
+  \href{https://doi.org/10.1088/1748-0221/12/05/C05010}{J. of Instrumentation. 2017. Vol. 12. C05010.}
+  
+  \item Bondar A. et al. Further studies of proportional electroluminescence in two-phase argon //
+  \href{https://doi.org/10.1088/1748-0221/12/05/C05016}{J. of Instrumentation. 2017. Vol. 12. C05016.}  
+\end{enumerate}
+
+Готовятся к публикации (в Вестник НГУ):
+\begin{enumerate}
+  \item Изучение ионизационного выхода ядер отдачи в жидком аргоне c помощью двухфазного детектора с оптическим считыванием.
+  \item Исследование пропорциональной электролюминесценции в двухфазном аргоне.
+\end{enumerate}
