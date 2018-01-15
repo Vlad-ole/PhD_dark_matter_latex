@@ -7,7 +7,11 @@ Akimov D. Detectors for Dark Matter search (Review) // Nucl. Instrum. Meth. A. 2
 Buzulutskov A. Advances in Cryogenic Avalanche Detectors // J. of Instrumentation. 2012. Vol. 7. C02025.
 
 \bibitem{NobleRev}
-Chepel V., Araujo H. Liquid Noble Gas Detectors for Low Energy Particle Physics // J. of Instrumentation. 2013. Vol. 8. R04001.
+Chepel V., Araujo H. Liquid Noble Gas Detectors for Low Energy Particle Physics // \href{http://doi.org/10.1088/1748-0221/8/04/R04001}{J. of Instrumentation. 2013. Vol. 8. R04001.}
+
+\bibitem{Joshi}
+Joshi T.H. et al. First Measurement of the Ionization Yield of Nuclear Recoils in Liquid Argon //
+ \href{https://doi.org/10.1103/PhysRevLett.112.171303}{Phys. Rev. Lett. 2014. Vol. 112. 171303.}
 
 \bibitem{New Results from DAMA/LIBRA}
 Bernabei R. et al. New Results from DAMA/LIBRA // Eur. Phys. J. C. 2010. Vol. 67. P. 39.
@@ -60,14 +64,69 @@ Barker D. et al. Ionization Efficiency Study for Low Energy Nuclear Recoils in G
 \bibitem{Quenching and Channeling of Nuclear Recoils in NaI[Tl]: Implications for Dark Matter Searches}
 Collar J.I. Quenching and Channeling of Nuclear Recoils in NaI[Tl]: Implications for Dark Matter Searches // Eprint: arXiv:1302. 0796. 2013.
 
-\bibitem{Scintillation Efficiency and Ionization Yield of Liquid Xenon for Monoenergetic Nuclear Recoils down to 4 keV}
-Manzur A. et al. Scintillation Efficiency and Ionization Yield of Liquid Xenon for Monoenergetic Nuclear Recoils down to 4 keV // Phys. Rev. C. 2010. Vol. 81. 025808.
+\bibitem{LXeYield1}
+Manzur A. et al. Scintillation Efficiency and Ionization Yield of Liquid Xenon for Monoenergetic Nuclear Recoils down to 4 keV // \href{https://doi.org/10.1103/PhysRevC.81.025808}{Phys. Rev. C. 2010. Vol. 81. 025808.}
 
-\bibitem{Nuclear Recoil Scintillation and Ionisation Yields in Liquid Xenon from ZEPLIN-III Data}
-Horn M. et al. Nuclear Recoil Scintillation and Ionisation Yields in Liquid Xenon from ZEPLIN-III Data // Phys. Lett. B. 2011. Vol. 705. P. 471.
+\bibitem{LXeYield2}
+Horn M. et al. Nuclear Recoil Scintillation and Ionisation Yields in Liquid Xenon from ZEPLIN-III Data //
+\href{http://dx.doi.org/10.1016/j.physletb.2011.10.038}{Phys. Lett. B. 2011. Vol. 705. P. 471.}
 
-\bibitem{New Measurement of the Scintillation Efficiency of Low-Energy Nuclear Recoils in Liquid Xenon}
-Plante G. et al. New Measurement of the Scintillation Efficiency of Low-Energy Nuclear Recoils in Liquid Xenon // Phys. Rev. C. 2011. Vol. 84. 045805.
+\bibitem{LXeYield3}
+Plante G. et al. New Measurement of the Scintillation Efficiency of Low-Energy Nuclear Recoils in Liquid Xenon //
+\href{https://doi.org/10.1103/PhysRevC.84.045805}{Phys. Rev. C. 2011. Vol. 84. 045805.}
+
+\bibitem{Cao}
+Cao H. et al. Measurement of scintillation and ionization yield and scintillation pulse shape from nuclear recoils in liquid argon // \href{https://doi.org/10.1103/PhysRevD.91.092007}{Phys. Rev. D. 2015. Vol. 91. 092007.}
+
+\bibitem{IonYield14}
+Bondar A. et al. Measurement of the ionization yield of nuclear recoils in liquid argon at 80 and 233 keV //
+\href{http://doi.org/10.1209/0295-5075/108/12001}{Europhys. Lett. 2014. Vol. 108 12001.}
+
+\bibitem{ArDM}
+Badertscher A. et al. ArDM: first results from underground commissioning //
+\href{https://doi.org/10.1088/1748-0221/8/09/C09005}{JINST. 2013. Vol. 8. C09005.}
+
+\bibitem{Darkside}
+Alexander T. et al. DarkSide search for dark matter //
+\href{https://doi.org/10.1088/1748-0221/8/11/C11021}{JINST 2013. Vol. 8. C11021.}
+
+\bibitem{CRADPropEL15}
+Bondar A. et al. Proportional electroluminescence in two-phase argon and its relevance to rare-event experiments  // \href{http://doi.org/10.1209/0295-5075/112/19001}{Europhys. Lett. 2015. Vol. 112. 19001.}
+
+\bibitem{CRADELGap17}
+Bondar A. et al. Two-phase Cryogenic Avalanche Detector with electroluminescence gap operated in argon doped with nitrogen // \href{http://dx.doi.org/10.1016/j.nima.2016.05.109}{Nucl. Instr. Meth. A. 2017. Vol. 845. 206.}
+
+\bibitem{CryoPMT15}
+Bondar A. et al. Characterization of photo-multiplier tubes for the Cryogenic Avalanche Detector //
+\href{http://dx.doi.org/10.1088/1748-0221/10/10/P10010}{JINST 2015. Vol. 10. P10010.}
+
+\bibitem{NeutrScattProj13}
+Бондарь А. Е. и др. Проект систем рассеяния нейтронов для калибровки детекторов темной материи и низкоэнергетических нейтрино //
+Вестн. Новосиб. гос. ун-та. Серия: Физика. 2013. Т. 8, вып. 3. С. 27–38.
+
+\bibitem{NeutrTargetYield12}
+Гришняев Е., Полосаткин С. Определение выхода титановой нейтронообразующей мишени //
+Атомная энергия 2012. Т. 113., вып. 5. С. 276 – 279.
+
+\bibitem{NGen16}
+Grishnyaev E., Polosatkin S. The study of neutron burst shape of a neutron tube driven by dispenser cathode //
+\href{https://doi.org/10.1016/j.nima.2016.05.021}{Nucl. Instr. Meth. A. 2016. Vol. 828. 91.}
+
+\bibitem{XRayYield16}
+Bondar A. et al. X-ray ionization yields and energy spectra in liquid argon //
+\href{http://dx.doi.org/10.1016/j.nima.2016.02.010}{Nucl. Instr. Meth. A. 2016. Vol. 816. 119.}
+
+\bibitem{NSpectr}
+Гришняев Е. С. и др. Программа для статистического моделирования рассеяния нейтронов
+ в криогенном детекторе слабовзаимодействующих частиц //
+Вестн. Новосиб. гос. ун-та. Серия: Физика. 2013. Т. 8, вып. 3. С. 39–46.
+
+\bibitem{NData}
+Chadwick M. et al. ENDF/B-VII.0: Next Generation Evaluated Nuclear Data Library for Nuclear Science and Technology //
+\href{https://doi.org/10.1016/j.nds.2006.11.001}{Nuclear Data Sheets. 2006. Vol. 107. 2931.}
+
+\bibitem{JaffeModel1}
+G. Jaffe, \emph{Zur Theorie der Ionisation in Kolonnen}, \href{https://doi.org/10.1002/andp.19133471205}{\emph{Ann. Phys.} {\bf 42} (1913) 303}
 
 \bibitem{Measurement of Scintillation Efficiency for Nuclear Recoils in Liquid Argon}
 Gastler D. et al. Measurement of Scintillation Efficiency for Nuclear Recoils in Liquid Argon // Phys. Rev. C. 2012. Vol. 85. 065811.

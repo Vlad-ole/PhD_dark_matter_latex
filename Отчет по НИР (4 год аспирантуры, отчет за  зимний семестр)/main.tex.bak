@@ -19,7 +19,9 @@
 %graphicx
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
+%\usepackage[lofdepth]{subfig}
 \usepackage{subfigure}
+%\renewcommand{\thesubfigure}{\asbuk{subfigure}}
 \graphicspath{{pictures/}}
 
 \usepackage{latexsym,amsfonts,amssymb,amsmath,eucal}
@@ -36,6 +38,7 @@
 \usepackage{multicol}
 \usepackage{multirow}
 \usepackage{hhline}% http://ctan.org/pkg/hhline
+\usepackage{makecell}
 
 %hyperref
 \usepackage[unicode=true]{hyperref}
@@ -67,7 +70,7 @@
 
 \include{first_page_var2}
 \include{abstract}
-\include{content_rus_180109}
+\include{content_rus_Jan2016-Sep2017}
 %\include{content_rus_winter}
 \include{double_scattering}
 %\include{content_eng}
