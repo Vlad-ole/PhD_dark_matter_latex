@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  15 JAN 2018 14:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  16 JAN 2018 19:29
 entering extended mode
 **D:/git_repositories/PhD_dark_matter_latex/Отчет*по*НИР*(4*год*а
 спирантуры,*отчет*за**зимний*семестр)/main.tex
@@ -16,19 +16,20 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(D:\LaTex\Full_TeX\texmf\tex\latex\base\article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\LaTex\Full_TeX\texmf\tex\latex\base\report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (D:\LaTex\Full_TeX\texmf\tex\latex\base\size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -70,7 +71,7 @@ Language: english 2005/03/30 v3.3o English support from the babel system
 
 (D:\LaTex\Full_TeX\texmf\tex\generic\babel\babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
-\babel@savecnt=\count87
+\babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@canadian = a dialect from \language\l@american 
@@ -87,15 +88,15 @@ Language: russianb 2008/03/21 v1.1r Russian support from the babel system
 ))
 (D:\LaTex\Full_TeX\texmf\tex\latex\tools\calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count88
-\calc@Bcount=\count89
+\calc@Acount=\count89
+\calc@Bcount=\count90
 \calc@Adimen=\dimen104
 \calc@Bdimen=\dimen105
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count90
+\calc@Ccount=\count91
 \calc@Cskip=\skip45
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\graphics\graphicx.sty
@@ -125,7 +126,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (D:\LaTex\Full_TeX\texmf\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count91
+\Gread@gobject=\count92
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
@@ -186,10 +187,10 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigbottomskip=\skip48
 \subfigcapmargin=\dimen109
 \subfiglabelskip=\skip49
-\c@subfigure=\count92
-\c@lofdepth=\count93
-\c@subtable=\count94
-\c@lotdepth=\count95
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -197,6 +198,50 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 (D:\LaTex\Full_TeX\texmf\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip50
 \subfig@bottom=\skip51
+)
+(D:\LaTex\Full_TeX\texmf\tex\latex\tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip52
+\cftbeforetoctitleskip=\skip53
+\cftaftertoctitleskip=\skip54
+\cftbeforepartskip=\skip55
+\cftpartnumwidth=\skip56
+\cftpartindent=\skip57
+\cftbeforechapskip=\skip58
+\cftchapindent=\skip59
+\cftchapnumwidth=\skip60
+\cftbeforesecskip=\skip61
+\cftsecindent=\skip62
+\cftsecnumwidth=\skip63
+\cftbeforesubsecskip=\skip64
+\cftsubsecindent=\skip65
+\cftsubsecnumwidth=\skip66
+\cftbeforesubsubsecskip=\skip67
+\cftsubsubsecindent=\skip68
+\cftsubsubsecnumwidth=\skip69
+\cftbeforeparaskip=\skip70
+\cftparaindent=\skip71
+\cftparanumwidth=\skip72
+\cftbeforesubparaskip=\skip73
+\cftsubparaindent=\skip74
+\cftsubparanumwidth=\skip75
+\cftbeforeloftitleskip=\skip76
+\cftafterloftitleskip=\skip77
+\cftbeforefigskip=\skip78
+\cftfigindent=\skip79
+\cftfignumwidth=\skip80
+\cftbeforelottitleskip=\skip81
+\cftafterlottitleskip=\skip82
+\cftbeforetabskip=\skip83
+\cfttabindent=\skip84
+\cfttabnumwidth=\skip85
+\cftbeforesubfigskip=\skip86
+\cftsubfigindent=\skip87
+\cftsubfignumwidth=\skip88
+\cftbeforesubtabskip=\skip89
+\cftsubtabindent=\skip90
+\cftsubtabnumwidth=\skip91
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -217,7 +262,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip52
+\@mathmargin=\skip92
 
 For additional information on amsmath, use the `?' option.
 (D:\LaTex\Full_TeX\texmf\tex\latex\amsmath\amstext.sty
@@ -235,13 +280,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (D:\LaTex\Full_TeX\texmf\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count96
+\inf@bad=\count97
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count97
-\leftroot@=\count98
+\uproot@=\count98
+\leftroot@=\count99
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count99
-\DOTSCASE@=\count100
+\classnum@=\count100
+\DOTSCASE@=\count101
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -250,15 +295,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen112
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
 \dotsspace@=\muskip10
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
 \tag@help=\toks19
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
 \andhelp@=\toks20
 \eqnshift@=\dimen113
 \alignsep@=\dimen114
@@ -267,8 +312,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen117
 \lineht@=\dimen118
 \@envbody=\toks21
-\multlinegap=\skip53
-\multlinetaggap=\skip54
+\multlinegap=\skip93
+\multlinetaggap=\skip94
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
@@ -301,68 +346,87 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\tools\layout.sty
 Package: layout 2000/09/25 v1.2c Show layout parameters
-\oneinch=\count108
-\cnt@paperwidth=\count109
-\cnt@paperheight=\count110
-\cnt@hoffset=\count111
-\cnt@voffset=\count112
-\cnt@textheight=\count113
-\cnt@textwidth=\count114
-\cnt@topmargin=\count115
-\cnt@oddsidemargin=\count116
-\cnt@evensidemargin=\count117
-\cnt@headheight=\count118
-\cnt@headsep=\count119
-\cnt@marginparsep=\count120
-\cnt@marginparwidth=\count121
-\cnt@marginparpush=\count122
-\cnt@footskip=\count123
-\fheight=\count124
-\ref@top=\count125
-\ref@hoffset=\count126
-\ref@voffset=\count127
-\ref@head=\count128
-\ref@body=\count129
-\ref@foot=\count130
-\ref@margin=\count131
-\ref@marginwidth=\count132
-\ref@marginpar=\count133
-\Interval=\count134
-\ExtraYPos=\count135
-\PositionX=\count136
-\PositionY=\count137
-\ArrowLength=\count138
+\oneinch=\count109
+\cnt@paperwidth=\count110
+\cnt@paperheight=\count111
+\cnt@hoffset=\count112
+\cnt@voffset=\count113
+\cnt@textheight=\count114
+\cnt@textwidth=\count115
+\cnt@topmargin=\count116
+\cnt@oddsidemargin=\count117
+\cnt@evensidemargin=\count118
+\cnt@headheight=\count119
+\cnt@headsep=\count120
+\cnt@marginparsep=\count121
+\cnt@marginparwidth=\count122
+\cnt@marginparpush=\count123
+\cnt@footskip=\count124
+\fheight=\count125
+\ref@top=\count126
+\ref@hoffset=\count127
+\ref@voffset=\count128
+\ref@head=\count129
+\ref@body=\count130
+\ref@foot=\count131
+\ref@margin=\count132
+\ref@marginwidth=\count133
+\ref@marginpar=\count134
+\Interval=\count135
+\ExtraYPos=\count136
+\PositionX=\count137
+\PositionY=\count138
+\ArrowLength=\count139
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\miller\miller.sty
 Package: miller 2004/09/20 v1.2 print miller indices
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip55
-\bibsep=\skip56
+\bibhang=\skip95
+\bibsep=\skip96
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count139
+\c@NAT@ctr=\count140
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
+(D:\LaTex\Full_TeX\texmf\tex\latex\tools\tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(D:\LaTex\Full_TeX\texmf\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen120
+\extrarowheight=\dimen121
+\NC@list=\toks25
+\extratabsurround=\skip97
+\backup@length=\skip98
+)
+\TX@col@width=\dimen122
+\TX@old@table=\dimen123
+\TX@old@col=\dimen124
+\TX@target=\dimen125
+\TX@delta=\dimen126
+\TX@cols=\count141
+\TX@ftn=\toks26
+)
 (D:\LaTex\Full_TeX\texmf\tex\latex\tools\multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count140
+\c@tracingmulticols=\count142
 \mult@box=\box28
-\multicol@leftmargin=\dimen120
-\c@unbalance=\count141
-\c@collectmore=\count142
-\doublecol@number=\count143
-\multicoltolerance=\count144
-\multicolpretolerance=\count145
-\full@width=\dimen121
-\page@free=\dimen122
-\premulticols=\dimen123
-\postmulticols=\dimen124
-\multicolsep=\skip57
-\multicolbaselineskip=\skip58
+\multicol@leftmargin=\dimen127
+\c@unbalance=\count143
+\c@collectmore=\count144
+\doublecol@number=\count145
+\multicoltolerance=\count146
+\multicolpretolerance=\count147
+\full@width=\dimen128
+\page@free=\dimen129
+\premulticols=\dimen130
+\postmulticols=\dimen131
+\multicolsep=\skip99
+\multicolbaselineskip=\skip100
 \partial@page=\box29
 \last@line=\box30
 \mult@rightbox=\box31
@@ -386,35 +450,26 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\c@columnbadness=\count146
-\c@finalcolumnbadness=\count147
-\last@try=\dimen125
-\multicolovershoot=\dimen126
-\multicolundershoot=\dimen127
+\c@columnbadness=\count148
+\c@finalcolumnbadness=\count149
+\last@try=\dimen132
+\multicolovershoot=\dimen133
+\multicolundershoot=\dimen134
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
-\multicol@sort@counter=\count148
+\multicol@sort@counter=\count150
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\multirow\multirow.sty
-\bigstrutjot=\dimen128
+\bigstrutjot=\dimen135
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\tools\hhline.sty
 Package: hhline 1994/05/23 v2.03 Table rule package (DPC)
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-
-(D:\LaTex\Full_TeX\texmf\tex\latex\tools\array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen129
-\extrarowheight=\dimen130
-\NC@list=\toks25
-\extratabsurround=\skip59
-\backup@length=\skip60
-)
-\rotheadsize=\dimen131
-\c@nlinenum=\count149
-\TeXr@lab=\toks26
+\rotheadsize=\dimen136
+\c@nlinenum=\count151
+\TeXr@lab=\toks27
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -459,14 +514,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (D:\LaTex\Full_TeX\texmf\tex\latex\oberdiek\auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen132
-\Hy@linkcounter=\count150
-\Hy@pagecounter=\count151
+\@linkdim=\dimen137
+\Hy@linkcounter=\count152
+\Hy@pagecounter=\count153
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count152
+\Hy@SavedSpaceFactor=\count154
 Package hyperref Info: Option `unicode' set `true' on input line 3411.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\hyperref\puenc.def
@@ -483,12 +538,12 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count153
+\c@Hy@tempcnt=\count155
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen133
-\Fld@menulength=\count154
-\Field@Width=\dimen134
-\Fld@charsize=\dimen135
+\XeTeXLinkMargin=\dimen138
+\Fld@menulength=\count156
+\Field@Width=\dimen139
+\Fld@charsize=\dimen140
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -498,24 +553,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count155
-\c@Item=\count156
-\c@Hfootnote=\count157
+\Hy@abspage=\count157
+\c@Item=\count158
+\c@Hfootnote=\count159
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count158
-\c@bookmark@seq@number=\count159
+\Fld@listcount=\count160
+\c@bookmark@seq@number=\count161
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip101
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -534,7 +589,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 50.
+Package hyperref Info: Option `colorlinks' set `true' on input line 57.
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\rotating\rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
@@ -542,29 +597,29 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 (D:\LaTex\Full_TeX\texmf\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count160
-\rotFPtop=\skip62
-\rotFPbot=\skip63
+\c@r@tfl@t=\count162
+\rotFPtop=\skip102
+\rotFPbot=\skip103
 \rot@float@box=\box54
-\rot@mess@toks=\toks27
+\rot@mess@toks=\toks28
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\graphics\lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (D:\LaTex\Full_TeX\texmf\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count161
-\Gm@cntv=\count162
-\c@Gm@tempcnt=\count163
-\Gm@bindingoffset=\dimen136
-\Gm@wd@mp=\dimen137
-\Gm@odd@mp=\dimen138
-\Gm@even@mp=\dimen139
-\Gm@layoutwidth=\dimen140
-\Gm@layoutheight=\dimen141
-\Gm@layouthoffset=\dimen142
-\Gm@layoutvoffset=\dimen143
-\Gm@dimlist=\toks28
+\Gm@cnth=\count163
+\Gm@cntv=\count164
+\c@Gm@tempcnt=\count165
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks29
 
 (D:\LaTex\Full_TeX\texmf\tex\latex\geometry\geometry.cfg))
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
@@ -576,14 +631,11 @@ var2.aux")
 спирантуры, отчет за  зимний семестр)\abstract.au
 x")
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
-спирантуры, отчет за  зимний семестр)\content_rus
-_Jan2016-Sep2017.aux")
+спирантуры, отчет за  зимний семестр)\introdactio
+n.aux")
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\content_rus
 _Sep2017-Jan2018.aux")
-("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
-спирантуры, отчет за  зимний семестр)\double_scat
-tering.aux")
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\conclusions
 .aux")
@@ -596,51 +648,51 @@ ux")
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\appendix2.a
 ux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  (D:\LaTex\Full_TeX\texmf\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
-\scratchdimen=\dimen144
+\scratchcounter=\count166
+\scratchdimen=\dimen149
 \scratchbox=\box55
-\nofMPsegments=\count165
-\nofMParguments=\count166
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count167
-\MPscratchDim=\dimen145
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
-\everyMPtoPDFconversion=\toks30
+\nofMPsegments=\count167
+\nofMParguments=\count168
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count169
+\MPscratchDim=\dimen150
+\MPnumerator=\count170
+\makeMPintoPDFobject=\count171
+\everyMPtoPDFconversion=\toks31
 )
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 81.
  (D:\LaTex\Full_TeX\texmf\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (D:\LaTex\Full_TeX\texmf\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count170
+\c@section@level=\count172
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\main.out")
@@ -713,312 +765,253 @@ x") [2
 
 ]
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
-спирантуры, отчет за  зимний семестр)\content_rus
-_Jan2016-Sep2017.tex"
+спирантуры, отчет за  зимний семестр)\introdactio
+n.tex"
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
-спирантуры, отчет за  зимний семестр)\main.toc")
-\tf@toc=\write4
-
+спирантуры, отчет за  зимний семестр)\main.toc"
 [3
 
 
-]
+])
+\tf@toc=\write4
+ [4]
 LaTeX Font Info:    Try loading font information for U+eus on input line 13.
  (D:\LaTex\Full_TeX\texmf\tex\latex\amsfonts\ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
-) [4]
-<pictures/setup_3d.pdf, id=150, 337.50092pt x 320.1561pt>
-File: pictures/setup_3d.pdf Graphic file (type pdf)
+)) [5
 
-<use pictures/setup_3d.pdf>
-Package pdftex.def Info: pictures/setup_3d.pdf used on input line 26.
-(pdftex.def)             Requested size: 171.99664pt x 163.1553pt.
-
-<pictures/setup_2d_var3_crop.pdf, id=151, 421.3341pt x 321.6015pt>
-File: pictures/setup_2d_var3_crop.pdf Graphic file (type pdf)
-
-<use pictures/setup_2d_var3_crop.pdf>
-Package pdftex.def Info: pictures/setup_2d_var3_crop.pdf used on input line 29.
-
-(pdftex.def)             Requested size: 242.5611pt x 185.14516pt.
- [5 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год
- аспирантуры, отчет за  зимний семестр)/pictures
-/setup_3d.pdf> <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИ�
-� (4 год аспирантуры, отчет за  зимний семест�
-�)/pictures/setup_2d_var3_crop.pdf
-
-pdfTeX warning: pdflatex.exe (file D:/git_repositories/PhD_dark_matter_latex/О
-тчет по НИР (4 год аспирантуры, отчет за  зим�
-�ий семестр)/pictures/setup_2d_var3_crop.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->] [6]
-<pictures/fig1_Spectrum_Signal+Backgr_16feb_2016.pdf, id=199, 565.11125pt x 454
-.69875pt>
-File: pictures/fig1_Spectrum_Signal+Backgr_16feb_2016.pdf Graphic file (type pd
-f)
- <use pictures/fig1_Spectrum_Signal+Backgr_16feb_2016.pdf>
-Package pdftex.def Info: pictures/fig1_Spectrum_Signal+Backgr_16feb_2016.pdf us
-ed on input line 47.
-(pdftex.def)             Requested size: 255.79108pt x 205.81284pt.
-
-<pictures/fig4_Spectrum_Signal-Backgr.pdf, id=200, 562.1pt x 460.72125pt>
-File: pictures/fig4_Spectrum_Signal-Backgr.pdf Graphic file (type pdf)
-
-<use pictures/fig4_Spectrum_Signal-Backgr.pdf>
-Package pdftex.def Info: pictures/fig4_Spectrum_Signal-Backgr.pdf used on input
- line 53.
-(pdftex.def)             Requested size: 255.79108pt x 209.65662pt.
- [7 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год
- аспирантуры, отчет за  зимний семестр)/pictures
-/fig1_Spectrum_Signal+Backgr_16feb_2016.pdf>] [8 <D:/git_repositories/PhD_dark_
-matter_latex/Отчет по НИР (4 год аспирантуры, отче�
-� за  зимний семестр)/pictures/fig4_Spectrum_Signal-Backgr.pdf>]
-
-<pictures/fig5_TheorSpectra.pdf, id=263, 562.1pt x 468.75125pt>
-File: pictures/fig5_TheorSpectra.pdf Graphic file (type pdf)
-
-<use pictures/fig5_TheorSpectra.pdf>
-Package pdftex.def Info: pictures/fig5_TheorSpectra.pdf used on input line 68.
-(pdftex.def)             Requested size: 255.79108pt x 213.31075pt.
- [9 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год
- аспирантуры, отчет за  зимний семестр)/pictures
-/fig5_TheorSpectra.pdf>]
-Overfull \hbox (5.56355pt too wide) in paragraph at lines 96--96
-\T2A/cmr/bx/n/17.28 ��-��-��-�� ��-��-�� � ���-��-��-��-���� ��-��-��� � ���-
- []
-
-[10]
-Overfull \hbox (4.7242pt too wide) in paragraph at lines 119--130
- [] 
- []
-
-<pictures/fig_IonYield_vs_field.pdf, id=321, 562.1pt x 482.80376pt>
-File: pictures/fig_IonYield_vs_field.pdf Graphic file (type pdf)
-
-<use pictures/fig_IonYield_vs_field.pdf>
-Package pdftex.def Info: pictures/fig_IonYield_vs_field.pdf used on input line 
-137.
-(pdftex.def)             Requested size: 242.5611pt x 208.33827pt.
-
-<pictures/IonYield_combined_data.pdf, id=326, 563.10374pt x 498.86375pt>
-File: pictures/IonYield_combined_data.pdf Graphic file (type pdf)
-
-<use pictures/IonYield_combined_data.pdf>
-Package pdftex.def Info: pictures/IonYield_combined_data.pdf used on input line
- 143.
-(pdftex.def)             Requested size: 198.45662pt x 175.81523pt.
-
-<pictures/IonYield_electron.pdf, id=327, 562.1pt x 489.83pt>
-File: pictures/IonYield_electron.pdf Graphic file (type pdf)
-
-<use pictures/IonYield_electron.pdf>
-Package pdftex.def Info: pictures/IonYield_electron.pdf used on input line 145.
-
-(pdftex.def)             Requested size: 198.45662pt x 172.9379pt.
-
-Underfull \hbox (badness 1253) in paragraph at lines 148--148
-\T2A/cmr/m/n/12 ��-��-�� � ���-��� Ar ��� ����-���
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 151--151
-\T2A/cmr/m/n/12 ���-��� ��-��-�� � ���-��� Ar ���
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 151--151
-\T2A/cmr/m/n/12 ����-���-��-���� ��-�� 2,4 ��/�� ���
- []
-
-) [11] [12 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4
- год аспирантуры, отчет за  зимний семестр)/p
-ictures/fig_IonYield_vs_field.pdf> <D:/git_repositories/PhD_dark_matter_latex/�
-�тчет по НИР (4 год аспирантуры, отчет за  зим
-ний семестр)/pictures/IonYield_combined_data.pdf> <D:/git_repositorie
-s/PhD_dark_matter_latex/Отчет по НИР (4 год аспирантуры
-, отчет за  зимний семестр)/pictures/IonYield_electron.pdf>
-]
+] [6]
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\content_rus
 _Sep2017-Jan2018.tex"
+{\Russian \CYRG \cyrl \cyra \cyrv \cyra } 1.
+[7
+
+
+
+]
+{\Russian \CYRG \cyrl \cyra \cyrv \cyra } 2.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 10.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
+(hyperref)                removing `math shift' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1.
+(hyperref)                removing `superscript' on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
+(hyperref)                removing `math shift' on input line 10.
 
 
-<pictures/171226_Cd109_spectrum_from_Ge_det_view1.pdf, id=382, 563.10374pt x 44
+<pictures/171226_Cd109_spectrum_from_Ge_det_view1.pdf, id=206, 563.10374pt x 44
 8.67625pt>
 File: pictures/171226_Cd109_spectrum_from_Ge_det_view1.pdf Graphic file (type p
 df)
  <use pictures/171226_Cd109_spectrum_from_Ge_det_view1.pdf>
 Package pdftex.def Info: pictures/171226_Cd109_spectrum_from_Ge_det_view1.pdf u
-sed on input line 8.
-(pdftex.def)             Requested size: 207.27887pt x 165.15868pt.
+sed on input line 17.
+(pdftex.def)             Requested size: 330.76329pt x 263.55283pt.
 
-<pictures/171226_Cd109_spectrum_from_Ge_det_view2.pdf, id=383, 563.10374pt x 44
+<pictures/171226_Cd109_spectrum_from_Ge_det_view2.pdf, id=207, 563.10374pt x 44
 8.67625pt>
 File: pictures/171226_Cd109_spectrum_from_Ge_det_view2.pdf Graphic file (type p
 df)
  <use pictures/171226_Cd109_spectrum_from_Ge_det_view2.pdf>
 Package pdftex.def Info: pictures/171226_Cd109_spectrum_from_Ge_det_view2.pdf u
-sed on input line 11.
-(pdftex.def)             Requested size: 207.27887pt x 165.15868pt.
- [13
+sed on input line 20.
+(pdftex.def)             Requested size: 330.76329pt x 263.55283pt.
+ [8
 
+]
+[9 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год 
+аспирантуры, отчет за  зимний семестр)/pictures/
+171226_Cd109_spectrum_from_Ge_det_view1.pdf> <D:/git_repositories/PhD_dark_matt
+er_latex/Отчет по НИР (4 год аспирантуры, отчет з
+а  зимний семестр)/pictures/171226_Cd109_spectrum_from_Ge_det_vie
+w2.pdf>] [10]
+{\Russian \CYRG \cyrl \cyra \cyrv \cyra } 3.
+[11
 
- <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год а
-спирантуры, отчет за  зимний семестр)/pictures/17
-1226_Cd109_spectrum_from_Ge_det_view1.pdf> <D:/git_repositories/PhD_dark_matter
-_latex/Отчет по НИР (4 год аспирантуры, отчет за
-  зимний семестр)/pictures/171226_Cd109_spectrum_from_Ge_det_view2
-.pdf>] <pictures/fig_2Dsetup_3PMT_1PMT.pdf, id=417, 475.53664pt x 390.25798pt>
+]
+{\Russian \CYRG \cyrl \cyra \cyrv \cyra } 4.
+<pictures/fig_2Dsetup_3PMT_1PMT.pdf, id=257, 475.53664pt x 390.25798pt>
 File: pictures/fig_2Dsetup_3PMT_1PMT.pdf Graphic file (type pdf)
 
 <use pictures/fig_2Dsetup_3PMT_1PMT.pdf>
 Package pdftex.def Info: pictures/fig_2Dsetup_3PMT_1PMT.pdf used on input line 
-23.
+91.
 (pdftex.def)             Requested size: 352.81552pt x 289.54265pt.
- [14 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 го�
-� аспирантуры, отчет за  зимний семестр)/picture
-s/fig_2Dsetup_3PMT_1PMT.pdf>]
-<pictures/fig_170622_x_ray_6mm_amp_vs_field.pdf, id=435, 564.1075pt x 431.6125p
+ [12
+
+] [13 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 го
+д аспирантуры, отчет за  зимний семестр)/pictur
+es/fig_2Dsetup_3PMT_1PMT.pdf>]
+<pictures/fig_170622_x_ray_6mm_amp_vs_field.pdf, id=280, 564.1075pt x 431.6125p
 t>
 File: pictures/fig_170622_x_ray_6mm_amp_vs_field.pdf Graphic file (type pdf)
  <use pictures/fig_170622_x_ray_6mm_amp_vs_field.pdf>
 Package pdftex.def Info: pictures/fig_170622_x_ray_6mm_amp_vs_field.pdf used on
- input line 44.
+ input line 129.
 (pdftex.def)             Requested size: 264.61333pt x 202.46274pt.
 
-<pictures/fig_171123_xray_2mm_SiPM_matrix_amp_distr_48V.pdf, id=436, 562.1pt x 
+<pictures/fig_171123_xray_2mm_SiPM_matrix_amp_distr_48V.pdf, id=281, 562.1pt x 
 449.68pt>
 File: pictures/fig_171123_xray_2mm_SiPM_matrix_amp_distr_48V.pdf Graphic file (
 type pdf)
  <use pictures/fig_171123_xray_2mm_SiPM_matrix_amp_distr_48V.pdf>
 Package pdftex.def Info: pictures/fig_171123_xray_2mm_SiPM_matrix_amp_distr_48V
-.pdf used on input line 52.
+.pdf used on input line 137.
 (pdftex.def)             Requested size: 264.61333pt x 211.68584pt.
 
-Underfull \hbox (badness 3088) in paragraph at lines 53--53
-[]\T2A/cmr/m/n/12 ���. 11: []������������� ���-�� ��-��-����-���-���, ��-��-��-
-����-��-���-��� SiPM-
+Underfull \hbox (badness 2334) in paragraph at lines 138--138
+[]\T2A/cmr/m/n/12 ���. 4.3: []������������� ���-�� ��-��-����-���-���, ��-��-��
+-����-��-���-��� SiPM-
  []
 
-<pictures/fig_SiPM_matrix_yield_48V.pdf, id=437, 562.1pt x 475.7775pt>
-File: pictures/fig_SiPM_matrix_yield_48V.pdf Graphic file (type pdf)
 
-<use pictures/fig_SiPM_matrix_yield_48V.pdf>
-Package pdftex.def Info: pictures/fig_SiPM_matrix_yield_48V.pdf used on input l
-ine 58.
-(pdftex.def)             Requested size: 264.61333pt x 223.97118pt.
-
-<pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf, id=438, 562.1pt x 454.69875
-pt>
-File: pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf Graphic file (type pdf)
-
- <use pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf>
-Package pdftex.def Info: pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf used
- on input line 66.
-(pdftex.def)             Requested size: 209.4861pt x 169.457pt.
-
-<pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf, id=439, 562.1pt x 454.69875
-pt>
-File: pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf Graphic file (type pdf)
-
- <use pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf>
-Package pdftex.def Info: pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf used
- on input line 69.
-(pdftex.def)             Requested size: 209.4861pt x 169.457pt.
-
-Overfull \hbox (6.01839pt too wide) in paragraph at lines 75--76
+Overfull \hbox (6.01839pt too wide) in paragraph at lines 146--147
 []\T2A/cmr/m/n/12 ��� ��-��-��-���-��� ���-��-��-��-�� ���-��-�� SiPM ���-��-��
 -��-��-��-�� ��-��-��-�� ���-
  []
 
-[15 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год
+[14 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год
  аспирантуры, отчет за  зимний семестр)/pictures
-/fig_170622_x_ray_6mm_amp_vs_field.pdf> <D:/git_repositories/PhD_dark_matter_la
-tex/Отчет по НИР (4 год аспирантуры, отчет за  �
-�имний семестр)/pictures/fig_171123_xray_2mm_SiPM_matrix_amp_distr_
-48V.pdf>] [16 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР
- (4 год аспирантуры, отчет за  зимний семестр
-)/pictures/fig_SiPM_matrix_yield_48V.pdf> <D:/git_repositories/PhD_dark_matter_
-latex/Отчет по НИР (4 год аспирантуры, отчет за 
- зимний семестр)/pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf
-> <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год �
-�спирантуры, отчет за  зимний семестр)/pictures/f
-ig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf>]
-<pictures/fig_171123_ch38_ch41_Npe_xray_2mm_noMC.pdf, id=516, 565.11125pt x 415
+/fig_170622_x_ray_6mm_amp_vs_field.pdf>] [15 <D:/git_repositories/PhD_dark_matt
+er_latex/Отчет по НИР (4 год аспирантуры, отчет з
+а  зимний семестр)/pictures/fig_171123_xray_2mm_SiPM_matrix_amp_d
+istr_48V.pdf>]
+<pictures/fig_171123_ch38_ch41_Npe_xray_2mm_noMC.pdf, id=324, 565.11125pt x 415
 .5525pt>
 File: pictures/fig_171123_ch38_ch41_Npe_xray_2mm_noMC.pdf Graphic file (type pd
 f)
  <use pictures/fig_171123_ch38_ch41_Npe_xray_2mm_noMC.pdf>
 Package pdftex.def Info: pictures/fig_171123_ch38_ch41_Npe_xray_2mm_noMC.pdf us
-ed on input line 95.
+ed on input line 166.
 (pdftex.def)             Requested size: 264.61333pt x 194.58684pt.
 
-<pictures/fig_171123_coorg_2Dgr_xray_2mm_noMC_18kV.pdf, id=518, 506.89375pt x 5
+<pictures/fig_171123_coorg_2Dgr_xray_2mm_noMC_18kV.pdf, id=326, 506.89375pt x 5
 78.16pt>
 File: pictures/fig_171123_coorg_2Dgr_xray_2mm_noMC_18kV.pdf Graphic file (type 
 pdf)
  <use pictures/fig_171123_coorg_2Dgr_xray_2mm_noMC_18kV.pdf>
 Package pdftex.def Info: pictures/fig_171123_coorg_2Dgr_xray_2mm_noMC_18kV.pdf 
-used on input line 102.
+used on input line 173.
 (pdftex.def)             Requested size: 264.61333pt x 301.81825pt.
- [17 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 го�
-� аспирантуры, отчет за  зимний семестр)/picture
-s/fig_171123_ch38_ch41_Npe_xray_2mm_noMC.pdf>]
-<pictures/fig_171123_coord_res_vs_Npe_xray_2mm_noMC.pdf, id=543, 563.10374pt x 
+
+<pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf, id=329, 562.1pt x 454.69875
+pt>
+File: pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf Graphic file (type pdf)
+
+ <use pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf>
+Package pdftex.def Info: pictures/fig_171123_Xcoorg_xray_2mm_noMC_18kV.pdf used
+ on input line 184.
+(pdftex.def)             Requested size: 209.4861pt x 169.457pt.
+
+<pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf, id=330, 562.1pt x 454.69875
+pt>
+File: pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf Graphic file (type pdf)
+
+ <use pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf>
+Package pdftex.def Info: pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf used
+ on input line 187.
+(pdftex.def)             Requested size: 209.4861pt x 169.457pt.
+
+<pictures/fig_171123_coord_res_vs_Npe_xray_2mm_noMC.pdf, id=332, 563.10374pt x 
 480.79625pt>
 File: pictures/fig_171123_coord_res_vs_Npe_xray_2mm_noMC.pdf Graphic file (type
  pdf)
  <use pictures/fig_171123_coord_res_vs_Npe_xray_2mm_noMC.pdf>
 Package pdftex.def Info: pictures/fig_171123_coord_res_vs_Npe_xray_2mm_noMC.pdf
- used on input line 112.
+ used on input line 197.
 (pdftex.def)             Requested size: 264.61333pt x 225.93758pt.
-)
-[18 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год
+
+[16 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год
  аспирантуры, отчет за  зимний семестр)/pictures
-/fig_171123_coorg_2Dgr_xray_2mm_noMC_18kV.pdf>] [19 <D:/git_repositories/PhD_da
+/fig_171123_ch38_ch41_Npe_xray_2mm_noMC.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 203.
+
+[17 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 год
+ аспирантуры, отчет за  зимний семестр)/pictures
+/fig_171123_coorg_2Dgr_xray_2mm_noMC_18kV.pdf>] [18 <D:/git_repositories/PhD_da
 rk_matter_latex/Отчет по НИР (4 год аспирантуры, отч
-ет за  зимний семестр)/pictures/fig_171123_coord_res_vs_Npe_xr
-ay_2mm_noMC.pdf>]
-("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
-спирантуры, отчет за  зимний семестр)\double_scat
-tering.tex" [20
+ет за  зимний семестр)/pictures/fig_171123_Xcoorg_xray_2mm_noM
+C_18kV.pdf> <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (
+4 год аспирантуры, отчет за  зимний семестр)/
+pictures/fig_171123_Ycoorg_xray_2mm_noMC_18kV.pdf> <D:/git_repositories/PhD_dar
+k_matter_latex/Отчет по НИР (4 год аспирантуры, отч�
+�т за  зимний семестр)/pictures/fig_171123_coord_res_vs_Npe_xra
+y_2mm_noMC.pdf>]
+<pictures/fig_171123_3PMT_Cd_and_Bkg_Npe_spec_2mm_20kV.pdf, id=420, 562.1pt x 4
+63.7325pt>
+File: pictures/fig_171123_3PMT_Cd_and_Bkg_Npe_spec_2mm_20kV.pdf Graphic file (t
+ype pdf)
+ <use pictures/fig_171123_3PMT_Cd_and_Bkg_Npe_spec_2mm_20kV.pdf>
+Package pdftex.def Info: pictures/fig_171123_3PMT_Cd_and_Bkg_Npe_spec_2mm_20kV.
+pdf used on input line 215.
+(pdftex.def)             Requested size: 264.61333pt x 218.30101pt.
 
+<pictures/fig_171123_SiPM_48V_Cd_Npe_spec_23_1keVcuts_2mm_20kV.pdf, id=423, 562
+.1pt x 453.695pt>
+File: pictures/fig_171123_SiPM_48V_Cd_Npe_spec_23_1keVcuts_2mm_20kV.pdf Graphic
+ file (type pdf)
 
-]
+<use pictures/fig_171123_SiPM_48V_Cd_Npe_spec_23_1keVcuts_2mm_20kV.pdf>
+Package pdftex.def Info: pictures/fig_171123_SiPM_48V_Cd_Npe_spec_23_1keVcuts_2
+mm_20kV.pdf used on input line 223.
+(pdftex.def)             Requested size: 209.4861pt x 169.08293pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+<pictures/fig_171123_SiPM_48V_Cd_Npe_spec_83_7keVcuts_2mm_20kV.pdf, id=424, 562
+.1pt x 449.68pt>
+File: pictures/fig_171123_SiPM_48V_Cd_Npe_spec_83_7keVcuts_2mm_20kV.pdf Graphic
+ file (type pdf)
 
+<use pictures/fig_171123_SiPM_48V_Cd_Npe_spec_83_7keVcuts_2mm_20kV.pdf>
+Package pdftex.def Info: pictures/fig_171123_SiPM_48V_Cd_Npe_spec_83_7keVcuts_2
+mm_20kV.pdf used on input line 226.
+(pdftex.def)             Requested size: 209.4861pt x 167.58662pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\times' on input line 27.
+<pictures/fig_SiPM_matrix_yield_48V.pdf, id=429, 562.1pt x 475.7775pt>
+File: pictures/fig_SiPM_matrix_yield_48V.pdf Graphic file (type pdf)
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
-
-[21]) [22]
+<use pictures/fig_SiPM_matrix_yield_48V.pdf>
+Package pdftex.def Info: pictures/fig_SiPM_matrix_yield_48V.pdf used on input l
+ine 232.
+(pdftex.def)             Requested size: 264.61333pt x 223.97118pt.
+ [19 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР (4 го�
+� аспирантуры, отчет за  зимний семестр)/picture
+s/fig_171123_3PMT_Cd_and_Bkg_Npe_spec_2mm_20kV.pdf>] [20 <D:/git_repositories/P
+hD_dark_matter_latex/Отчет по НИР (4 год аспирантуры, �
+�тчет за  зимний семестр)/pictures/fig_171123_SiPM_48V_Cd_Np
+e_spec_23_1keVcuts_2mm_20kV.pdf> <D:/git_repositories/PhD_dark_matter_latex/О�
+�чет по НИР (4 год аспирантуры, отчет за  зимн
+ий семестр)/pictures/fig_171123_SiPM_48V_Cd_Npe_spec_83_7keVcuts_2mm_2
+0kV.pdf>] [21 <D:/git_repositories/PhD_dark_matter_latex/Отчет по НИР
+ (4 год аспирантуры, отчет за  зимний семестр
+)/pictures/fig_SiPM_matrix_yield_48V.pdf>]) [22]
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\conclusions
 .tex") [23
+
 
 
 ]
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\bibliograph
 y.tex"
-Underfull \hbox (badness 5504) in paragraph at lines 7--8
+Underfull \hbox (badness 5504) in paragraph at lines 8--9
 []\T2A/cmr/m/n/12 Buzulutskov A. Advances in Cryogenic Avalanche Detectors // J
 . of
  []
@@ -1026,13 +1019,14 @@ Underfull \hbox (badness 5504) in paragraph at lines 7--8
 [24
 
 
+
 ] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 []\T2A/cmr/m/n/12 Bondar A. et al. Two-phase Cryogenic Avalanche Detector with
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 103--104
+Underfull \hbox (badness 1603) in paragraph at lines 104--105
 \T2A/cmr/m/n/12 electroluminescence gap operated in argon doped with nitrogen /
 / [][]Nucl.
  []
@@ -1052,18 +1046,20 @@ Overfull \hbox (36.1396pt too wide) in paragraph at lines 15--17
 MATSU)
  []
 
-) [28
+[28
 
 
-]
+
+]) [29]
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\appendix2.t
-ex") [29
+ex") [30
+
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
 
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\main.aux"
@@ -1074,14 +1070,11 @@ var2.aux")
 спирантуры, отчет за  зимний семестр)\abstract.au
 x")
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
-спирантуры, отчет за  зимний семестр)\content_rus
-_Jan2016-Sep2017.aux")
+спирантуры, отчет за  зимний семестр)\introdactio
+n.aux")
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\content_rus
 _Sep2017-Jan2018.aux")
-("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
-спирантуры, отчет за  зимний семестр)\double_scat
-tering.aux")
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\conclusions
 .aux")
@@ -1094,36 +1087,37 @@ ux")
 ("D:\git_repositories\PhD_dark_matter_latex\Отчет по НИР (4 год а
 спирантуры, отчет за  зимний семестр)\appendix2.a
 ux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DF913FFF0746D122BA94E10BE19405E0;5668.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
+(rerunfilecheck)             Checksum: 0C9CDC58B4CD8C26106D702A1E386C9F;9118.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 12621 strings out of 493921
- 190444 string characters out of 3150556
- 259963 words of memory out of 3000000
- 15446 multiletter control sequences out of 15000+200000
- 17436 words of font info for 57 fonts, out of 3000000 for 9000
+ 12932 strings out of 493921
+ 194041 string characters out of 3150556
+ 261811 words of memory out of 3000000
+ 15743 multiletter control sequences out of 15000+200000
+ 21638 words of font info for 71 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,16n,64p,5579b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,15n,50p,2501b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LaTex/Full_TeX/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<D:/LaTex/
 Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/LaTex/Full_TeX/tex
 mf/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/LaTex/Full_TeX/texmf/fonts/typ
 e1/public/amsfonts/cm/cmmi6.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/ams
 fonts/cm/cmmi8.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/LaTe
-x/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/LaTex/Full_TeX/t
-exmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/LaTex/Full_TeX/texmf/fonts/ty
+0.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/LaT
+ex/Full_TeX/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/LaTex/Full_TeX/te
+xmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/LaTex/Full_TeX/texmf/fonts/ty
 pe1/public/amsfonts/euler/eusm10.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/publi
 c/cm-super/sfbx1200.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-super/sf
 bx1440.pfb><D:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-super/sfbx1728.pfb><D
-:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-super/sfrm1000.pfb><D:/LaTex/Full_
-TeX/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (29 pages, 1575804 bytes).
+:/LaTex/Full_TeX/texmf/fonts/type1/public/cm-super/sfbx2488.pfb><D:/LaTex/Full_
+TeX/texmf/fonts/type1/public/cm-super/sfrm1000.pfb><D:/LaTex/Full_TeX/texmf/fon
+ts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (30 pages, 1347669 bytes).
 PDF statistics:
- 773 PDF objects out of 1000 (max. 8388607)
- 144 named destinations out of 1000 (max. 500000)
- 244 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 711 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

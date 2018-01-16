@@ -1,4 +1,6 @@
-\documentclass[12pt,a4paper, onecolumn]{article}
+\documentclass[12pt,a4paper, onecolumn]{report}
+%\documentclass[12pt,a4paper, onecolumn]{disser}
+%\documentclass[12pt,a4paper, onecolumn]{article}
 %\documentclass[a4paper,14pt,oneside,openany]{memoir}
 
 %\usepackage{russ}
@@ -20,7 +22,9 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
 %\usepackage[lofdepth]{subfig}
+%\usepackage{subfigure}
 \usepackage{subfigure}
+\usepackage[subfigure]{tocloft}
 %\renewcommand{\thesubfigure}{\asbuk{subfigure}}
 \graphicspath{{pictures/}}
 
@@ -34,7 +38,10 @@
 \usepackage[numbers,square,comma,sort&compress]{natbib}
 \usepackage{url}
 
+
+
 %tables
+\usepackage{tabularx}
 \usepackage{multicol}
 \usepackage{multirow}
 \usepackage{hhline}% http://ctan.org/pkg/hhline
@@ -64,19 +71,32 @@
 %\usepackage{hyphenat}
 %\hyphenation{Inst-ru-men-tat-ion.}
 
+%contents
+%\usepackage{tocloft}
+%\renewcommand\cftchapdotsep{\cftdotsep}%
+\usepackage{tocloft}
+
 
 
 \begin{document}
 
+%bibliography
+\renewcommand\bibname{Список литературы}
+\renewcommand\contentsname{Содержание}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+
 \include{first_page_var2}
 \include{abstract}
-\include{content_rus_Jan2016-Sep2017}
+\include{introdaction}
+%\include{content_rus_Jan2016-Sep2017}
 \include{content_rus_Sep2017-Jan2018}
 %\include{content_rus_winter}
-\include{double_scattering}
+%\include{double_scattering}
 %\include{content_eng}
 \include{conclusions}
 \include{bibliography}
 \include{appendix1}
 \include{appendix2}
+%\include{appendix_reductions}
 \end{document}
