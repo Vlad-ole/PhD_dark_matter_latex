@@ -4,9 +4,39 @@ A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: introdaction.aux
 A level-1 auxiliary file: content_rus_Sep2017-Jan2018.aux
 A level-1 auxiliary file: conclusions.aux
-A level-1 auxiliary file: bibliography.aux
+The style file: gost705.bst
 A level-1 auxiliary file: appendix1.aux
 A level-1 auxiliary file: appendix2.aux
-I found no \bibdata command---while reading file main.aux
-I found no \bibstyle command---while reading file main.aux
-(There were 2 error messages)
+Database file #1: mybib.bib
+I was expecting a `,' or a `}'---line 8 of file mybib.bib
+ : 
+ : doi = {example}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 12 of file mybib.bib
+ : @article{Detectors 
+ :                    for Dark Matter search (Review),
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 21 of file mybib.bib
+ : @article{Advances 
+ :                   in Cryogenic Avalanche Detectors,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 59 of file mybib.bib
+ : 
+ : doi = {10.1109/TNS.2015.2481322}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "LXeYield1"
+Warning--I didn't find a database entry for "LXeYield2"
+Warning--I didn't find a database entry for "LXeYield3"
+Warning--I didn't find a database entry for "Cao"
+Warning--I didn't find a database entry for "IonYield14"
+Warning--I didn't find a database entry for "ArDM"
+Warning--I didn't find a database entry for "Darkside"
+Warning--I didn't find a database entry for "CRADELGap17"
+Warning--I didn't find a database entry for "CryoPMT15"
+Warning--I didn't find a database entry for "NeutrScattProj13"
+Warning--I didn't find a database entry for "NeutrTargetYield12"
+Warning--I didn't find a database entry for "NGen16"
+Warning--I didn't find a database entry for "XRayYield16"
+(There were 4 error messages)

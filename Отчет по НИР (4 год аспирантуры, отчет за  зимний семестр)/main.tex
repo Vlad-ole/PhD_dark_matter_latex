@@ -1,5 +1,5 @@
-\documentclass[12pt,a4paper, onecolumn]{report}
-%\documentclass[12pt,a4paper, onecolumn]{disser}
+%\documentclass[12pt,a4paper, onecolumn]{report}
+\documentclass[12pt,a4paper, onecolumn]{disser}
 %\documentclass[12pt,a4paper, onecolumn]{article}
 %\documentclass[a4paper,14pt,oneside,openany]{memoir}
 
@@ -56,6 +56,7 @@
     urlcolor={blue!80!black}
 }
 
+
 \usepackage{rotating}
 \usepackage{lscape}
 
@@ -75,12 +76,12 @@
 %\usepackage{tocloft}
 %\renewcommand\cftchapdotsep{\cftdotsep}%
 \usepackage{tocloft}
-
-
+%\usepackage{titlesec}
+%\titleformat{\chapter}[hang]{\fillast}{\bfseries\MakeUppercase{\chaptertitlename\space\thechapter : #1}}{1ex minus .1ex}{\bfseries\uppercase}
+%\titleformat{\chapter}{\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
 
 \begin{document}
 
-%bibliography
 \renewcommand\bibname{Список литературы}
 \renewcommand\contentsname{Содержание}
 \renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
@@ -95,7 +96,12 @@
 %\include{double_scattering}
 %\include{content_eng}
 \include{conclusions}
-\include{bibliography}
+
+%\include{bibliography}
+%\bibliographystyle{unsrt}
+\bibliographystyle{gost705}   
+\bibliography{mybib}% list here all the bibliographies that you need.
+
 \include{appendix1}
 \include{appendix2}
 %\include{appendix_reductions}

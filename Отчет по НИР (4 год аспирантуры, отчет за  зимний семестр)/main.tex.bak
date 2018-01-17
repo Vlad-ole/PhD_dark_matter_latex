@@ -1,5 +1,5 @@
-\documentclass[12pt,a4paper, onecolumn]{report}
-%\documentclass[12pt,a4paper, onecolumn]{disser}
+%\documentclass[12pt,a4paper, onecolumn]{report}
+\documentclass[12pt,a4paper, onecolumn]{disser}
 %\documentclass[12pt,a4paper, onecolumn]{article}
 %\documentclass[a4paper,14pt,oneside,openany]{memoir}
 
@@ -22,7 +22,9 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
 %\usepackage[lofdepth]{subfig}
+%\usepackage{subfigure}
 \usepackage{subfigure}
+\usepackage[subfigure]{tocloft}
 %\renewcommand{\thesubfigure}{\asbuk{subfigure}}
 \graphicspath{{pictures/}}
 
@@ -36,9 +38,7 @@
 \usepackage[numbers,square,comma,sort&compress]{natbib}
 \usepackage{url}
 
-%contents
-%\usepackage{tocloft}
-%\renewcommand\cftchapdotsep{\cftdotsep}%
+
 
 %tables
 \usepackage{tabularx}
@@ -71,17 +71,22 @@
 %\usepackage{hyphenat}
 %\hyphenation{Inst-ru-men-tat-ion.}
 
-
-%bibliography
-%\renewcommand\refname{\centering Список литературы}
-%\renewcommand{\bibname}{Список литературы 123}
-%\renewcommand\bibname{Reference}
-%\renewcommand\refname{Reference}
-%\addto\captionsrussian{\def\refname{Список литературы}}
-\addto\captionsrussian{\renewcommand{\refname}{Reference}}
-\renewcommand{\refname}{Reference}
+%contents
+%\usepackage{tocloft}
+%\renewcommand\cftchapdotsep{\cftdotsep}%
+\usepackage{tocloft}
+\usepackage{titlesec}
+%\titleformat{\chapter}[hang]{\fillast}{\bfseries\MakeUppercase{\chaptertitlename\space\thechapter : #1}}{1ex minus .1ex}{\bfseries\uppercase}
+\titleformat{\chapter}
+  {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
 
 \begin{document}
+
+\renewcommand\bibname{Список литературы}
+\renewcommand\contentsname{Содержание}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+
 \include{first_page_var2}
 \include{abstract}
 \include{introdaction}
@@ -94,5 +99,5 @@
 \include{bibliography}
 \include{appendix1}
 \include{appendix2}
-%\include{appendix_reductions}
+\include{appendix_reductions}
 \end{document}
